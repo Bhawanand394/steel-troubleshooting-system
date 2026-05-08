@@ -186,16 +186,43 @@ button:hover{
 @media(max-width:900px){
 
     .hero{
-        flex-direction:column;
+        grid-template-columns:1fr;
+        padding:30px 20px;
+        gap:40px;
+    }
+
+    .hero-left{
         text-align:center;
     }
 
     .hero-left h1{
-        font-size:48px;
+        font-size:54px;
+        line-height:1.2;
+    }
+
+    .hero-left p{
+        font-size:18px;
     }
 
     .navbar{
         padding:20px;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .nav-right{
+        display:none;
+    }
+
+    .glass-card{
+        max-width:100%;
+        padding:30px;
+    }
+
+    .stats-section{
+        margin-top:20px;
     }
 }
 /* Stats Section */

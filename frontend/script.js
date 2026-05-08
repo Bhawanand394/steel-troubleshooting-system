@@ -55,6 +55,9 @@ function loadMachineData() {
             </div>
         `;
     });
+    results.scrollIntoView({
+        behavior: "smooth"
+    });
 }
 
 // Start app
