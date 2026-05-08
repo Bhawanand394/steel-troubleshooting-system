@@ -59,3 +59,62 @@ function loadMachineData() {
 
 // Start app
 loadData();
+function smartSearch(){
+
+    const input = document
+        .getElementById("searchInput")
+        .value
+        .toLowerCase();
+
+    const results = document.getElementById("results");
+
+    results.innerHTML = "";
+
+    if(input === ""){
+        return;
+    }
+
+    const filteredData = allData.filter(item =>
+
+        (item.Problem &&
+        item.Problem.toLowerCase().includes(input))
+
+        ||
+
+        (item.Remedy &&
+        item.Remedy.toLowerCase().includes(input))
+
+        ||
+
+        (item.Machine &&
+        item.Machine.toLowerCase().includes(input))
+
+    );
+
+    filteredData.forEach(item => {
+
+        results.innerHTML += `
+
+            <div class="card">
+
+                <h3>${item.Problem || "Problem"}</h3>
+
+                <p>
+                    <strong>Machine:</strong>
+                    ${item.Machine || "N/A"}
+                </p>
+
+                <p>
+                    <strong>Cause:</strong>
+                    ${item.Cause || "N/A"}
+                </p>
+
+                <p>
+                    <strong>Remedy:</strong>
+                    ${item.Remedy || "N/A"}
+                </p>
+
+            </div>
+        `;
+    });
+}

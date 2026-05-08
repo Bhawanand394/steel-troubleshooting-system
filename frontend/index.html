@@ -3,25 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steel Plant Troubleshooting</title>
+
+    <title>Steel Plant Troubleshooting System</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Background Glow -->
+    <div class="bg-glow"></div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+
+        <div class="logo">
+            ⚙ SteelAI
+        </div>
+
+        <div class="nav-right">
+            Smart Industrial Monitoring
+        </div>
+
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+
+        <div class="hero-left">
+
+            <h1>
+                AI Powered <br>
+                Steel Plant <br>
+                Troubleshooting
+            </h1>
+
+            <p>
+                Intelligent maintenance and troubleshooting platform
+                for industrial machinery and equipment.
+            </p>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="glass-card">
+
+                <h2>Machine Diagnosis</h2>
+                <input type="text" id="searchInput" placeholder="Search machine problems..." onkeyup="smartSearch()" />
+                <select id="machineSelect">
+
+                    <option value="">
+                        Select Machine
+                    </option>
+
+                </select>
+
+                <button onclick="loadMachineData()">
+                    Analyze Problems
+                </button>
+
+            </div>
+
+        </div>
+<!-- Stats Section -->
+
+<div class="stats-section">
+
+    <div class="stat-card">
+
+        <h2>9+</h2>
+
+        <p>Machine Types</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>500+</h2>
+
+        <p>Troubleshooting Records</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>AI</h2>
+
+        <p>Smart Diagnosis Engine</p>
+
+    </div>
+
+</div>
+    </div>
+
+    <!-- Results -->
     <div class="container">
 
-        <h1>Steel Plant Troubleshooting System</h1>
-
-        <select id="machineSelect">
-            <option value="">Select Machine</option>
-        </select>
-
-        <button onclick="loadMachineData()">
-            Show Problems
-        </button>
-
-        <div id="results"></div>
+        <div id="results" class="results-grid"></div>
 
     </div>
 
