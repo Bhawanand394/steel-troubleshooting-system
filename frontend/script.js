@@ -1,11 +1,19 @@
-const apiURL = "http://127.0.0.1:5000";
+let allData = [];
+
+// Load JSON data
+async function loadData() {
+
+    const response = await fetch("data.json");
+
+    allData = await response.json();
+
+    loadMachines();
+}
 
 // Load machine names
-async function loadMachines() {
+function loadMachines() {
 
-    const response = await fetch(`${apiURL}/machines`);
-
-    const machines = await response.json();
+    const machines = [...new Set(allData.map(item => item.Machine))];
 
     const select = document.getElementById("machineSelect");
 
@@ -20,20 +28,20 @@ async function loadMachines() {
     });
 }
 
-// Load troubleshooting data
-async function loadMachineData() {
+// Show troubleshooting data
+function loadMachineData() {
 
     const machine = document.getElementById("machineSelect").value;
 
-    const response = await fetch(`${apiURL}/machine/${machine}`);
-
-    const data = await response.json();
+    const filteredData = allData.filter(
+        item => item.Machine === machine
+    );
 
     const results = document.getElementById("results");
 
     results.innerHTML = "";
 
-    data.forEach(item => {
+    filteredData.forEach(item => {
 
         results.innerHTML += `
             <div class="card">
@@ -50,4 +58,4 @@ async function loadMachineData() {
 }
 
 // Start app
-loadMachines();
+loadData();

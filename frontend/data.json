@@ -1,0 +1,1424 @@
+[
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022PUMP IS NOT WORKING",
+        "Remedy":"1.Check the pump element for its spool clearance"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022CHECK VALVE IS DEFECTIVE",
+        "Remedy":"1. Check valve is not working."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022LEAKAGE IN SYSTEM",
+        "Remedy":"1. Line may punctured"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022EMPTY RESERVOIR",
+        "Remedy":"1. No grease filled into the reservoir"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022D.M. VALVE HAS INTERNAL LEAKAGE",
+        "Remedy":"May internal clearance of spool increase and short circuit the system"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022WRONG DIRECTION OF MOTOR",
+        "Remedy":"Wrong connection of Motor"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"PRESSURE NOT INCREASING",
+        "Cause":"\u2022AIR INTRRAPED IN SYSTEM",
+        "Remedy":"1. No grease filled into the reservoir"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PRESSURE IS NOT DEVELOPING",
+        "Remedy":"1. No grease into the reservoir"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022DEFECTIVE CHANGE OVER VALVE",
+        "Remedy":"1. Solenoid coil may weak. Or resistance of coil may weak"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022LEAKAGE IN SYSTEM",
+        "Remedy":"1. Line may punctured 2. O ring of fitting may damaged"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022END OF THE LINE PR.SWITCH IS NOT WORKING",
+        "Remedy":"1. No power supply to the limit switch."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PR. SETTING IS VERY HIGH (  IN HYDRAULIC CHANGE OVERVALVE)",
+        "Remedy":"Change over pr.  Set at  very high  limit"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022SOLONOID COIL OF CHANGE",
+        "Remedy":"1. Solenoid coil may weak. Or resistance of coil may weak"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022LEAKAGE IN SYSTEM",
+        "Remedy":"1. Line may punctured"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022OPERATING PRESSURE  IS LOW",
+        "Remedy":"Required pr. for operating the D.M. valve is low."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022DEFECTIVE D.M. VALVE",
+        "Remedy":"1. Intermediate spool may jam."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CONSUMING POINT IS JAM",
+        "Remedy":"1. contaminated grease"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022GREASE PIPE IS JAM OR GREASE MAY HARD IN PIPE",
+        "Remedy":"1. Contaminated grease"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022SPOOL MAY BEND OR DEFECTIVE",
+        "Remedy":"1.  Spool of particular point may bend."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"SPOOL STROKE IS FULLY THROTTLED",
+        "Remedy":"While adjusting the flow of grease it has been fully throtlled."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022D.M. VALVE HAS INTERNAL OR EXTERNAL LEAKAGE",
+        "Remedy":"1. Clearance of Intermediate spool may increase."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CHANGE OVER  IS NOT TAKING PLACE",
+        "Remedy":"1.Solonoid coil may weak. Or resistance of coil may weak"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022TOO LONG HEADER",
+        "Remedy":"Because grease is slightly compresable, ( 2% of total volume) there must be sufficient  release time. Due to long header grease will not release immediately"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022END OF THE LINE PRESSURE  SWITCH IS DEFECTIVE",
+        "Remedy":"1. No power supply to the limit switch."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CHANGE OVER VALVE IS DEFECTIVE",
+        "Remedy":"1. Solenoid coil may weak. Or resistance of coil may weak"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022MINOR LEAKAGE IN SYSTEM",
+        "Remedy":"1. Line may punctured"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CHECK VALVE IS DEFECTIVE",
+        "Remedy":"1. Check valve is not working"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PRESSURE LINE SHUT OFF VALVE OF STAND BY PUMP IS PARTIALY OPEN",
+        "Remedy":"If there is two pump one is running and another is in standby then there may be chance of pressure line valve of stand by pump may partially open"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"INCREASE\u2022LEAKAGE IN SYSTEM",
+        "Remedy":"1.Line may punctured"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PAUSE TIMER HAS REDUCED",
+        "Remedy":"Pause timer has reduced by some one, hence no of cycle increase."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022END OF THE LINE PR. SWITCH PRESSURE SETTING REDUCED",
+        "Remedy":"1.End of the line pr. switch spring may get  loose"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022SYSTEM IS RUNNING IN CONTINUOUS MODE.",
+        "Remedy":"1. May system is running in continuous mode"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"DECREASEPAUSE TIMER HAS INCREASED",
+        "Remedy":"Pause timer has increase by some one,hence no of cycle reduced."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022ANY BRANCH LINE IS BY-PASS.",
+        "Remedy":"Branch line shut off valve may close"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CHANGE OVER TIME HAS INCREASED",
+        "Remedy":"1. Minor leakage in system"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022NO POWER CONNECTION",
+        "Remedy":"Check the power connection"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022POWER CONNECTION IS WRONG",
+        "Remedy":"Check the power connection"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022HIGH PRESSURE SWITCH IS ACTIVATED",
+        "Remedy":"Due to high pressure limit switch activated continuously."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022LOW  LEVEL SWITCH ACTIVATED DUE TO LOW LEVEL  IN RESERVOIR",
+        "Remedy":"Grease is not in reservoir, hence low level switch activated."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022WRONG SELECTION OF PUMP",
+        "Remedy":"Pump selected in pannel is differnet from valve selection of other pump"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PUMP TRIP IN OVERLOAD",
+        "Remedy":"Due to load, pump trip in over load"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022COUPLING MAY DAMAGE",
+        "Remedy":"high torque or jamming of pump"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022SHAFT BROKEN",
+        "Remedy":"high torque or jamming of pump"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CONTAMINATED GREASE",
+        "Remedy":"1. Continuous contaminated grease dispensing through pump"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022RUN IN OVERLOAD",
+        "Remedy":"1. Due to load, pump trip in over load2. Internal parts of pump is in broken condition"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022WEAR AND TEAR IN PUMP ELEMENT",
+        "Remedy":"1. Due to contaminated grease.2. Fatigue failure"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022HIGH  NLGI GRADE  GREASE USED",
+        "Remedy":"1. High consistency grease are being used"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022WRONG ASSEMBLY OF PUMP",
+        "Remedy":"Pump has not assembled properly."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022PUMP IS RUNNING IN DRY CONDITION",
+        "Remedy":"No grease into the reservoir"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022CONTAMINATED GREASE",
+        "Remedy":"1. Grease barrel are kept in dusty area."
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022SEAL IS DAMAGED",
+        "Remedy":"Seal may damage of  follower disk"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022FOLLOWER DISK ROD MAY BEND",
+        "Remedy":"May follower disk rod bend"
+    },
+    {
+        "Machine":"CGL",
+        "Problem":"Change over not taking place",
+        "Cause":"\u2022AIR INTRRAPED IN RESERVOIR",
+        "Remedy":"Due to air entrapped, Follower disk may get jam."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"1. No electrical power.",
+        "Remedy":"Turn on power."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"2. Low oil level.",
+        "Remedy":"Check oil level.\u00a0Replace your oil\u00a0if necessary"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"3. Pressure switch not making contact.",
+        "Remedy":"See pressure switch adjustment."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"4. Pressure in the tank is below the cut-in pressure.",
+        "Remedy":"See pressure switch adjustment."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"1. Loose pulley, flywheel, belt, belt guard, cooler, clamps or accessories.",
+        "Remedy":"Tighten any loose ends."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"2. Lack of oil in crankcase.",
+        "Remedy":"Check for possible damage to bearings"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"3. Piston hitting the valve plate.",
+        "Remedy":"Remove the compressor cylinder head and inspect for foreign matter on top of the piston. Add a new gasket and reassemble the head."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"4. Compressor floor mounting loose.",
+        "Remedy":"Tighten the bolts on the air compressor. It may also be a good idea to replace your\u00a0vibration pads"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"5. Defective crankcase.",
+        "Remedy":"Repair or replace."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"6. Excessive crank end play.",
+        "Remedy":"Adjust and shim properly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock - same cycle as R.P.M.",
+        "Cause":"1. Main bearings.",
+        "Remedy":"Replace bearings."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock - same cycle as R.P.M.",
+        "Cause":"2. Connecting rod bearings.",
+        "Remedy":"Replace rod."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock - same cycle as R.P.M.",
+        "Cause":"3. Loose flywheel.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"1. Connecting rod bearings.",
+        "Remedy":"Replace rod."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"2. Wrist pins, wrist pin bearings.",
+        "Remedy":"Replace piston assembly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"3. Loose connecting rod nut.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Milky oil in oil reservoir.",
+        "Cause":"1. Water entering oil reservoir due to compressor operating in high humidity environment.",
+        "Remedy":"a. Pipe air intake to less humid air source."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"1. Restricted air intake.",
+        "Remedy":"Clean or replace\u00a0air filter."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"2. Oil leaks.",
+        "Remedy":"Tighten bolts or replace gasket."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"3. Worn piston rings.",
+        "Remedy":"Replace rings."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"4. Wrong oil viscosity.",
+        "Remedy":"Drain oil, refill with oil of proper viscosity."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"5. Compressor tilted too much.",
+        "Remedy":"Level compressor.\u00a0Vibration pads\u00a0may help with this"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"6. Scored cylinder.",
+        "Remedy":"Replace cylinder."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"1. Compressor air intake restricted.",
+        "Remedy":"Clean or replace your\u00a0air filters."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"2. Worn piston rings.",
+        "Remedy":"Replace rings."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"3. Excessive oil in compressor.",
+        "Remedy":"Drain down to full mark on sight gauge."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"4. Wrong oil viscosity.",
+        "Remedy":"Check viscosity."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"5. Piston rings installed up-side down.",
+        "Remedy":"Replace crankshaft."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"1. Mounting bolts loose.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"2. Compressor not properly mounted.",
+        "Remedy":"Level compressor so that all feet touch the floor before tightening down."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"3. Pulley and flywheel misaligned.",
+        "Remedy":"Realign."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"4. Belts loose.",
+        "Remedy":"Tighten belts."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"5. Bent crankshaft.",
+        "Remedy":"Replace crankshaft."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Air blowing out of inlet.",
+        "Cause":"1. Broken first stage inlet valve.",
+        "Remedy":"Replace valve plate assembly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Insufficient pressure at point of use.",
+        "Cause":"1. Leaks or restriction.",
+        "Remedy":"Check for leaks or restriction in hose or piping. Repair."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Insufficient pressure at point of use.",
+        "Cause":"2. Restricted air intake.",
+        "Remedy":"Clean or replace air filter element."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Insufficient pressure at point of use.",
+        "Cause":"3. Slipping belts.",
+        "Remedy":"Tighten belts."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Insufficient pressure at point of use.",
+        "Cause":"4. Service hose too small.",
+        "Remedy":"Replace with larger hose."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Insufficient pressure at point of use.",
+        "Cause":"5. Excessive air requirement.",
+        "Remedy":"Limit air usage to compressor capacity by using fewer or smaller tools."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver does not hold pressure when compressor is unloaded.",
+        "Cause":"1. Faulty\u00a0check valve.",
+        "Remedy":"Bleed tank! Disassemble check valve assembly, clean or\u00a0replace\u00a0faulty parts."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"1. Pulley out of alignment.",
+        "Remedy":"Realign motor pulley with compressor flywheel."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"2. Belts too tight.",
+        "Remedy":"Adjust tension."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"3. Belts too loose.",
+        "Remedy":"Adjust tension."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"4. Pulley or flywheel wobble.",
+        "Remedy":"Check for worn worn crankshaft, keyway or pulley bore, resulting from running with loose pulleys. Check for bent crankshaft."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"5. Nick in belt groove of pulley or flywheel.",
+        "Remedy":"File smooth."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"1. Dirty cooling surfaces.",
+        "Remedy":"Clean cooling surfaces of cylinder, intercooler and discharge tube."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"2. Poor ventilation.",
+        "Remedy":"Improve ventilation or relocate compressor."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"3. Blown head gasket.",
+        "Remedy":"Replace head gasket."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"4. Restricted air intake.",
+        "Remedy":"Clean or replace\u00a0air filter element."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"5. Worn valves.",
+        "Remedy":"Replace valve plate assembly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Air leaking from inter stage safety relief valve when compressor is pumping.",
+        "Cause":"1. Safety relief valve not functioning properly.",
+        "Remedy":"Remove and install new\u00a0safety relief valve. If new safety valve leaks remove cylinder head, inspect and clean\u00a0reed valve\u00a0assembly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Air leaking from inter stage safety relief valve when compressor is pumping.",
+        "Cause":"2. Leaky gasket - High pressure inlet valve.",
+        "Remedy":"Replace gasket."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"1. Dirty air filter.",
+        "Remedy":"Clean or replace filter element."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"2. Blown cylinder head gasket.",
+        "Remedy":"Install\u00a0new gasket."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"3. Worn or broken low pressure intake or discharge valves.",
+        "Remedy":"Install new valve plate."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"4. Air leaks.",
+        "Remedy":"Tighten joints."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"5. Loose belts.",
+        "Remedy":"Tighten or\u00a0replace belts."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"6. Speed too slow.",
+        "Remedy":"Check speed."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up quickly on compressor.",
+        "Cause":"1. Excessive water in receiver.",
+        "Remedy":"Drain receiver\/tank."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up quickly on compressor.",
+        "Cause":"2. Speed too fast.",
+        "Remedy":"Check speed."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly; fuses of proper size blow.",
+        "Cause":"1. Motor overload.",
+        "Remedy":"Shut down immediately to avoid damage."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly; fuses of proper size blow.",
+        "Cause":"2. Malfunction or improperly adjusted.",
+        "Remedy":"Adjust or replace."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly; fuses of proper size blow.",
+        "Cause":"3. High ambient temperature.",
+        "Remedy":"Provide ventilation."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Fuses blow repeatedly.",
+        "Cause":"1. Wrong fuse size.",
+        "Remedy":"Check to make sure that fuses are of proper ampere rating."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"1. No electrical power.",
+        "Remedy":"Turn on power, check fuse, breaker, or motor overload."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"2.\u00a0Pressure switch\u00a0not making contact.",
+        "Remedy":"Replace or repair."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor will not operate.",
+        "Cause":"3. Defective unloader or check valve.",
+        "Remedy":"Replace\u00a0or repair."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"1. Loose\u00a0pulley, flywheel belt,\u00a0belt guard, clamps or accessories.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"2. Lack of oil in crankcase.",
+        "Remedy":"Check for possible damage to bearings, replenish oil."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"3. Piston hitting the valve plate.",
+        "Remedy":"Remove the compressor cylinder head and inspect for foreign matter on top of the piston, clean, add a new\u00a0gasket, and reassemble the head."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"4. Compressor floor mounting loose.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive noise in operation.",
+        "Cause":"5. Defective crankcase.",
+        "Remedy":"Repair"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock-same cycle as RPM.",
+        "Cause":"1. Main bearings.",
+        "Remedy":"Replace bearings."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock-same cycle as RPM.",
+        "Cause":"2. Connecting rod bearings.",
+        "Remedy":"Replace rod."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock-same cycle as RPM.",
+        "Cause":"3. Loose flywheel.",
+        "Remedy":"Tighten."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"2. Wrist pins, wrist pin bearings.",
+        "Remedy":"Replace complete piston assembly."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"3. Loose connecting rod bolt.",
+        "Remedy":"Tighten bolt."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Knock occurs while compressor is loading.",
+        "Cause":"4. Loose flywheel.",
+        "Remedy":"Tighten setscrew."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Milky oil in crankcase.",
+        "Cause":"1. Water entering oil reservoir due to compressor operating in high humidity environment.",
+        "Remedy":"Pipe air intake to less humid air source."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"1. Restricted air intake.",
+        "Remedy":"Clean or replace air filter."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"3. Worn piston rings.",
+        "Remedy":"Replace\u00a0rings."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive oil consumption.",
+        "Cause":"5. Compressor tilted too much.",
+        "Remedy":"Level compressor."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"1. Compressor air intake restricted.",
+        "Remedy":"Clean\u00a0air filter element\u00a0and check for other restrictions in the intake system."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"3. Excessive oil in compressor.",
+        "Remedy":"Drain down to bottom of threads."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"4. Wrong oil viscosity.",
+        "Remedy":"Check viscosity and\u00a0change oil\u00a0if necessary"
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"5. Piston rings installed up-side down.",
+        "Remedy":"Install rings in proper position."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Oil in discharge air.",
+        "Cause":"6. Plugged crankcase breather.",
+        "Remedy":"Clean or replace."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor vibrates.",
+        "Cause":"1. Mounting bolts loose.",
+        "Remedy":"Tighten. Consider installing\u00a0vibration pads."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver does not hold pressure when compressor shuts off",
+        "Cause":"1. Faulty check valve.",
+        "Remedy":"Bleed tank! Disassemble check valve assembly, clean or replace faulty parts."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"1. Pulley out of alignment.",
+        "Remedy":"Realign motor\u00a0pulley\u00a0with compressor flywheel."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive belt wear.",
+        "Cause":"4. Pulley or flywheel wobble.",
+        "Remedy":"Check for worn crankshaft, keyway or pulley bore, resulting from running with loose pulleys. Check for bent\u00a0crankshaft\u00a0- if bent then replace."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Excessive discharge air temperature.",
+        "Cause":"4. Worn valve.",
+        "Remedy":"Repair or replace valves."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"1. Dirty air filter.",
+        "Remedy":"Clean or replace\u00a0filter element."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"2. Blown cylinder head gasket.",
+        "Remedy":"Install new gasket."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"3. Worn or broken low pressure intake or discharge valves.",
+        "Remedy":"Install new flapper valves and gaskets."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"5. Loose belts.",
+        "Remedy":"Tighten belt or\u00a0replace belt."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up slowly.",
+        "Cause":"6. Speed too slow.",
+        "Remedy":"Check pulley size and belt tension."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Receiver pressure builds up rapidly.",
+        "Cause":"1. Excessive water in receiver.",
+        "Remedy":"Drain receiver\/tank."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly.",
+        "Cause":"1. Motor overload.",
+        "Remedy":"Shut down immediately to avoid damage."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly.",
+        "Cause":"2. Malfunction or improperly adjusted.",
+        "Remedy":"Adjust or replace."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Reset mechanism cuts out repeatedly.",
+        "Cause":"3. High ambient temperature.",
+        "Remedy":"Provide ventilation."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Fuses blow repeatedly.",
+        "Cause":"3. Defective unloader or\u00a0check valve.",
+        "Remedy":"Replace\u00a0or repair."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Fuses blow repeatedly.",
+        "Cause":"4. Belt to tight.",
+        "Remedy":"Loosen belt."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor suddenly stops working",
+        "Cause":"1. Bad unloader valve",
+        "Remedy":"Replace the\u00a0unloader valve."
+    },
+    {
+        "Machine":"Compressor",
+        "Problem":"Compressor suddenly stops working",
+        "Cause":"2. Loss of power",
+        "Remedy":"Plug compressor into a new power source"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"1. Overload",
+        "Remedy":"Decrease load or use a larger model"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"2. Insufficient or excessive lubricating oil",
+        "Remedy":"Adjust oil level so it aligns with mark on oil gauge"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"3. Contaminated oil",
+        "Remedy":"Flush interior and resplace oil"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"4. Oil viscosity is improper",
+        "Remedy":"Change oil with one having the proper viscosity"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"5. Bearing are improperly mounted",
+        "Remedy":"Reassemble and tighten properly (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"6. Shaft is connected improperly",
+        "Remedy":"Align properly"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"7. Air vent port is closed",
+        "Remedy":"Remove rubber plug from oil cap"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Gear case becomes unusually hot",
+        "Cause":"8. Ambient temperature is too high",
+        "Remedy":"Install cooling fan or move to cooler area"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"1. Improper meshing",
+        "Remedy":"Adjust properly (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"2. Bearings are damaged or worn",
+        "Remedy":"Replace bearings (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"3. Overloaded",
+        "Remedy":"Decrease load or use a larger model"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"4. Insufficient oil",
+        "Remedy":"Add oil so level aligns with oil gauge"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"5. Oil seal is not wet with oil",
+        "Remedy":"Lubricate"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"6. Improper installation or connection",
+        "Remedy":"Tighten loose bolts and align correctly"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"7. Bearing are improperly mounted",
+        "Remedy":"Adjust (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"8. Input rpm is too high",
+        "Remedy":"Reduce"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Unusual or excessive noise",
+        "Cause":"9. Foreign particles are mixed in oil",
+        "Remedy":"Remove foreign particles and replace oil after flushing interior. (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Vibration is excessive",
+        "Cause":"1. Gear teeth are worn",
+        "Remedy":"Replace wheel (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Vibration is excessive",
+        "Cause":"2. Foreign particles are mixed in oil",
+        "Remedy":"Remove foreign particles and replace oil after flushing interior. (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Vibration is excessive",
+        "Cause":"3. Bearings are worn or damaged",
+        "Remedy":"Replace bearings (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Vibration is excessive",
+        "Cause":"4. Mounting bolts are loose",
+        "Remedy":"Tighten"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Vibration is excessive",
+        "Cause":"5. Wheel is improperly aligned",
+        "Remedy":"Replace wheel (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts do not rotate at all",
+        "Cause":"1. Teeth seizure",
+        "Remedy":"Replace worm and wheel (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts do not rotate at all",
+        "Cause":"2. Bearings are worn or damaged",
+        "Remedy":"Replace bearings (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts do not rotate at all",
+        "Cause":"3. Foreign particles are mixed in oil",
+        "Remedy":"Remove foreign particles and replace oil after flushing interior. (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts rotates in idle condition and output shaft is not driven",
+        "Cause":"1. Wheel teeth is worn",
+        "Remedy":"Replace wheel (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts rotates in idle condition and output shaft is not driven",
+        "Cause":"2. Wheel boss or shaft key are damaged",
+        "Remedy":"Replace wheel or key (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts rotates in idle condition and output shaft is not driven",
+        "Cause":"3. Input shaft or worm teeth are damaged",
+        "Remedy":"Replace shaft or worm (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Input\/output shafts rotates in idle condition and output shaft is not driven",
+        "Cause":"4. Input shaft is broken",
+        "Remedy":"Replace shaft (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"1. Overload",
+        "Remedy":"Reduced load"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"2. Contaminated oil",
+        "Remedy":"Replace oil after flushing interior"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"3. Insufficient oil",
+        "Remedy":"Add oil"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"4. Oil viscosity is too low",
+        "Remedy":"Replace oil with one having the proper viscosity"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"5. Ambient temperature is too high",
+        "Remedy":"Install cooling fan or move to cooler area"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"6. Foreign particles are mixed in oil",
+        "Remedy":"Remove foreign particles, clean interior and replace oil"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"7. Excessive rpm",
+        "Remedy":"Reducer rpm or use a different model"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Teeth are worn",
+        "Cause":"8. Backlash is improper",
+        "Remedy":"Reassemble and adjust"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Main body has cracks or shaft is broken",
+        "Cause":"1. Overload",
+        "Remedy":"Reduce load or use a larger model"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Main body has cracks or shaft is broken",
+        "Cause":"2. Impact load is greater than rated load.",
+        "Remedy":"Reduce impact load or use a larger model"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Main body has cracks or shaft is broken",
+        "Cause":"3. Connection is improper",
+        "Remedy":"Align properly"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Main body has cracks or shaft is broken",
+        "Cause":"4. Gear case has partial thickness or cavities",
+        "Remedy":"Replace gear case (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"1. Oil seal is defective",
+        "Remedy":"Replace oil seal"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"2. Cover mounting bolts are loose",
+        "Remedy":"Tighten bolts"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"3. Air does not escape",
+        "Remedy":"Check oil cap"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"4. Input and output shafts are marred",
+        "Remedy":"Replace shafts (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"5. Excessive oil",
+        "Remedy":"Adjust oil level so it aligns with mark on oil gauge"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"6. Gear case has cavities",
+        "Remedy":"Replace gear case (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"7. Gear case has fissures",
+        "Remedy":"Replace gear case (Consult dealer)"
+    },
+    {
+        "Machine":"Gearbox",
+        "Problem":"Oil leaks",
+        "Cause":"8. Other than normal installation directions (horizontal oblique, upside-down etc)",
+        "Remedy":"Const dealer about installation"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Air in Pump or Suction \u00a0 Pipework",
+        "Remedy":"Ensure Pump and \u00a0 Pipework are Completely Filled with Liquid. Pump can not prime with air in \u00a0 suction line."
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Suction Lift Too High",
+        "Remedy":"Check Inlet for \u00a0 obstruction. If there is not an obstruction calculate friction losses. If \u00a0 static lift is too high the liquid in the suction tank must be raised or pump \u00a0 lowered"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Insufficient \u00a0 Manometric Head",
+        "Remedy":"Actual head with \u00a0 friction losses is higher than pump design. Calculate head and friction \u00a0 losses in discharge. Check all valves are open. To correct increase pipe \u00a0 diameter, or increase impeller diameter, motor power or pump."
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Operation is Reversed",
+        "Remedy":"Check motor direction \u00a0 of rotation is in the direction of arrow on pump casing"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Speed Incorrect",
+        "Remedy":"Check supply voltage and \u00a0 frequency. Motor may also have open phase"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Zero Flow after \u00a0 Startup",
+        "Cause":"Impeller, strainer or \u00a0 check valve clogged",
+        "Remedy":"Clean impeller, valve \u00a0 and strainer"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Flow Decreases or None at All",
+        "Cause":"Air ingress through \u00a0 shaft seal, suction piping, suction port. Pump lifts liquid with air.",
+        "Remedy":"Check suction pipework \u00a0 for leaks, including all joints and fittings. Check shaft seal and if \u00a0 necessary, increase pressure of sealing liquid. Check depth of suction \u00a0 pipework or valve in liquid and deepen if required.\u00a0Check inlet tank for vortexing."
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Flow Decreases or None at All",
+        "Cause":"Air pocket in suction \u00a0 pipe",
+        "Remedy":"Check angle of suction \u00a0 line and ensure there is no possibility for an air pocket and if so ensure \u00a0 air eliminator valves are fitted"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Flow Decreases or None at All",
+        "Cause":"Increase of Manometric \u00a0 Head",
+        "Remedy":"Check valves are fully \u00a0 open and there are no obstructions in discharge pipe"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Flow Decreases or None at All",
+        "Cause":"Impeller, strainer or \u00a0 check valve clogged",
+        "Remedy":"Clean impeller, valve \u00a0 and strainer"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Pump operating at \u00a0 lower manometric head",
+        "Remedy":"The actual head is \u00a0 lower than originally specified. Reduce impeller size to diameter advised by \u00a0 supplier or utilise an inverter to reduce pump speed"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Speed too high",
+        "Remedy":"Decrease pump \u00a0 rotational speed or trim impeller to required size"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Mechanical Friction \u00a0 inside pump",
+        "Remedy":"Check pump rotor for \u00a0 any obstruction or deflection"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Packing wound too \u00a0 tight",
+        "Remedy":"Loosen nuts on packing \u00a0 gland"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Coupling Alignment",
+        "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Density or viscosity \u00a0 of the liquid pumped is higher than originally advised",
+        "Remedy":"Increase motor size"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Driver Overloaded",
+        "Cause":"Motor Defects",
+        "Remedy":"Check for motor \u00a0 defects. May not be ventilated correctly and be in a poor location"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Bearings \u00a0 Overheating",
+        "Cause":"Poor Coupling \u00a0 Alignment",
+        "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Bearings \u00a0 Overheating",
+        "Cause":"Bearing Covers too \u00a0 tight",
+        "Remedy":"Check and loosen if \u00a0 necessary, bearing cover"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Bearings \u00a0 Overheating",
+        "Cause":"Pumped flow is less \u00a0 than minimum safe continuous flow",
+        "Remedy":"Increase flow. If \u00a0 necessary, use by-pass recirculating valve or line"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Bearings \u00a0 Overheating",
+        "Cause":"Too much grease",
+        "Remedy":"Remove excess grease"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Bearings \u00a0 Overheating",
+        "Cause":"Insufficient lubrication \u00a0 or lubricating oil \/ grease dirty or contaminated",
+        "Remedy":"Check the amount of \u00a0 oil\/grease. Clean the bearings, bearing housing and lubricate"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Vibration",
+        "Cause":"Partially clogged \u00a0 impeller",
+        "Remedy":"Clean Impeller"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Vibration",
+        "Cause":"Worn or defective \u00a0 impeller",
+        "Remedy":"Replace impeller"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Vibration",
+        "Cause":"Poor Coupling \u00a0 Alignment",
+        "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Vibration",
+        "Cause":"Oblique Shaft",
+        "Remedy":"Check shaft and \u00a0 replace if required"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Vibration",
+        "Cause":"Unbalanced parts",
+        "Remedy":"Check and rebalance \u00a0 parts if required"
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Noise level high",
+        "Cause":"Air in liquid",
+        "Remedy":"Suction pipe needs to \u00a0 be submerged to ensure vortexes are not created on the surface of the liquid."
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Noise level high",
+        "Cause":"Pump working in \u00a0 cavitation area",
+        "Remedy":"NPSH is too low. Check \u00a0 liquid level in suction tank, check suction losses. Check valve in suction \u00a0 line and ensure fully open. Increase suction head by lowering pump."
+    },
+    {
+        "Machine":"centrigugal pump",
+        "Problem":"Noise level high",
+        "Cause":"Pump operating outside \u00a0 of duty range",
+        "Remedy":"Check duty point"
+    }
+]
