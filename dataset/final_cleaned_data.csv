@@ -1,0 +1,238 @@
+Machine,Problem,Cause,Remedy
+CGL,PRESSURE NOT INCREASING,•PUMP IS NOT WORKING,1.Check the pump element for its spool clearance
+CGL,PRESSURE NOT INCREASING,•CHECK VALVE IS DEFECTIVE,1. Check valve is not working.
+CGL,PRESSURE NOT INCREASING,•LEAKAGE IN SYSTEM,1. Line may punctured
+CGL,PRESSURE NOT INCREASING,•EMPTY RESERVOIR,1. No grease filled into the reservoir
+CGL,PRESSURE NOT INCREASING,•D.M. VALVE HAS INTERNAL LEAKAGE,May internal clearance of spool increase and short circuit the system
+CGL,PRESSURE NOT INCREASING,•WRONG DIRECTION OF MOTOR,Wrong connection of Motor
+CGL,PRESSURE NOT INCREASING,•AIR INTRRAPED IN SYSTEM,1. No grease filled into the reservoir
+CGL,Change over not taking place,•PRESSURE IS NOT DEVELOPING,1. No grease into the reservoir
+CGL,Change over not taking place,•DEFECTIVE CHANGE OVER VALVE,1. Solenoid coil may weak. Or resistance of coil may weak
+CGL,Change over not taking place,•LEAKAGE IN SYSTEM,1. Line may punctured 2. O ring of fitting may damaged
+CGL,Change over not taking place,•END OF THE LINE PR.SWITCH IS NOT WORKING,1. No power supply to the limit switch.
+CGL,Change over not taking place,•PR. SETTING IS VERY HIGH (  IN HYDRAULIC CHANGE OVERVALVE),Change over pr.  Set at  very high  limit
+CGL,Change over not taking place,•SOLONOID COIL OF CHANGE,1. Solenoid coil may weak. Or resistance of coil may weak
+CGL,Change over not taking place,•LEAKAGE IN SYSTEM,1. Line may punctured
+CGL,Change over not taking place,•OPERATING PRESSURE  IS LOW,Required pr. for operating the D.M. valve is low.
+CGL,Change over not taking place,•DEFECTIVE D.M. VALVE,1. Intermediate spool may jam.
+CGL,Change over not taking place,•CONSUMING POINT IS JAM,1. contaminated grease
+CGL,Change over not taking place,•GREASE PIPE IS JAM OR GREASE MAY HARD IN PIPE,1. Contaminated grease
+CGL,Change over not taking place,•SPOOL MAY BEND OR DEFECTIVE,1.  Spool of particular point may bend.
+CGL,Change over not taking place,SPOOL STROKE IS FULLY THROTTLED,While adjusting the flow of grease it has been fully throtlled.
+CGL,Change over not taking place,•D.M. VALVE HAS INTERNAL OR EXTERNAL LEAKAGE,1. Clearance of Intermediate spool may increase.
+CGL,Change over not taking place,•CHANGE OVER  IS NOT TAKING PLACE,1.Solonoid coil may weak. Or resistance of coil may weak
+CGL,Change over not taking place,•TOO LONG HEADER,"Because grease is slightly compresable, ( 2% of total volume) there must be sufficient  release time. Due to long header grease will not release immediately"
+CGL,Change over not taking place,•END OF THE LINE PRESSURE  SWITCH IS DEFECTIVE,1. No power supply to the limit switch.
+CGL,Change over not taking place,•CHANGE OVER VALVE IS DEFECTIVE,1. Solenoid coil may weak. Or resistance of coil may weak
+CGL,Change over not taking place,•MINOR LEAKAGE IN SYSTEM,1. Line may punctured
+CGL,Change over not taking place,•CHECK VALVE IS DEFECTIVE,1. Check valve is not working
+CGL,Change over not taking place,•PRESSURE LINE SHUT OFF VALVE OF STAND BY PUMP IS PARTIALY OPEN,If there is two pump one is running and another is in standby then there may be chance of pressure line valve of stand by pump may partially open
+CGL,Change over not taking place,INCREASE•LEAKAGE IN SYSTEM,1.Line may punctured
+CGL,Change over not taking place,•PAUSE TIMER HAS REDUCED,"Pause timer has reduced by some one, hence no of cycle increase."
+CGL,Change over not taking place,•END OF THE LINE PR. SWITCH PRESSURE SETTING REDUCED,1.End of the line pr. switch spring may get  loose
+CGL,Change over not taking place,•SYSTEM IS RUNNING IN CONTINUOUS MODE.,1. May system is running in continuous mode
+CGL,Change over not taking place,DECREASEPAUSE TIMER HAS INCREASED,"Pause timer has increase by some one,hence no of cycle reduced."
+CGL,Change over not taking place,•ANY BRANCH LINE IS BY-PASS.,Branch line shut off valve may close
+CGL,Change over not taking place,•CHANGE OVER TIME HAS INCREASED,1. Minor leakage in system
+CGL,Change over not taking place,•NO POWER CONNECTION,Check the power connection
+CGL,Change over not taking place,•POWER CONNECTION IS WRONG,Check the power connection
+CGL,Change over not taking place,•HIGH PRESSURE SWITCH IS ACTIVATED,Due to high pressure limit switch activated continuously.
+CGL,Change over not taking place,•LOW  LEVEL SWITCH ACTIVATED DUE TO LOW LEVEL  IN RESERVOIR,"Grease is not in reservoir, hence low level switch activated."
+CGL,Change over not taking place,•WRONG SELECTION OF PUMP,Pump selected in pannel is differnet from valve selection of other pump
+CGL,Change over not taking place,•PUMP TRIP IN OVERLOAD,"Due to load, pump trip in over load"
+CGL,Change over not taking place,•COUPLING MAY DAMAGE,high torque or jamming of pump
+CGL,Change over not taking place,•SHAFT BROKEN,high torque or jamming of pump
+CGL,Change over not taking place,•CONTAMINATED GREASE,1. Continuous contaminated grease dispensing through pump
+CGL,Change over not taking place,•RUN IN OVERLOAD,"1. Due to load, pump trip in over load2. Internal parts of pump is in broken condition"
+CGL,Change over not taking place,•WEAR AND TEAR IN PUMP ELEMENT,1. Due to contaminated grease.2. Fatigue failure
+CGL,Change over not taking place,•HIGH  NLGI GRADE  GREASE USED,1. High consistency grease are being used
+CGL,Change over not taking place,•WRONG ASSEMBLY OF PUMP,Pump has not assembled properly.
+CGL,Change over not taking place,•PUMP IS RUNNING IN DRY CONDITION,No grease into the reservoir
+CGL,Change over not taking place,•CONTAMINATED GREASE,1. Grease barrel are kept in dusty area.
+CGL,Change over not taking place,•SEAL IS DAMAGED,Seal may damage of  follower disk
+CGL,Change over not taking place,•FOLLOWER DISK ROD MAY BEND,May follower disk rod bend
+CGL,Change over not taking place,•AIR INTRRAPED IN RESERVOIR,"Due to air entrapped, Follower disk may get jam."
+Compressor,Compressor will not operate.,1. No electrical power.,Turn on power.
+Compressor,Compressor will not operate.,2. Low oil level.,Check oil level. Replace your oil if necessary
+Compressor,Compressor will not operate.,3. Pressure switch not making contact.,See pressure switch adjustment.
+Compressor,Compressor will not operate.,4. Pressure in the tank is below the cut-in pressure.,See pressure switch adjustment.
+Compressor,Excessive noise in operation.,"1. Loose pulley, flywheel, belt, belt guard, cooler, clamps or accessories.",Tighten any loose ends.
+Compressor,Excessive noise in operation.,2. Lack of oil in crankcase.,Check for possible damage to bearings
+Compressor,Excessive noise in operation.,3. Piston hitting the valve plate.,Remove the compressor cylinder head and inspect for foreign matter on top of the piston. Add a new gasket and reassemble the head.
+Compressor,Excessive noise in operation.,4. Compressor floor mounting loose.,Tighten the bolts on the air compressor. It may also be a good idea to replace your vibration pads
+Compressor,Excessive noise in operation.,5. Defective crankcase.,Repair or replace.
+Compressor,Excessive noise in operation.,6. Excessive crank end play.,Adjust and shim properly.
+Compressor,Knock - same cycle as R.P.M.,1. Main bearings.,Replace bearings.
+Compressor,Knock - same cycle as R.P.M.,2. Connecting rod bearings.,Replace rod.
+Compressor,Knock - same cycle as R.P.M.,3. Loose flywheel.,Tighten.
+Compressor,Knock occurs while compressor is loading.,1. Connecting rod bearings.,Replace rod.
+Compressor,Knock occurs while compressor is loading.,"2. Wrist pins, wrist pin bearings.",Replace piston assembly.
+Compressor,Knock occurs while compressor is loading.,3. Loose connecting rod nut.,Tighten.
+Compressor,Milky oil in oil reservoir.,1. Water entering oil reservoir due to compressor operating in high humidity environment.,a. Pipe air intake to less humid air source.
+Compressor,Excessive oil consumption.,1. Restricted air intake.,Clean or replace air filter.
+Compressor,Excessive oil consumption.,2. Oil leaks.,Tighten bolts or replace gasket.
+Compressor,Excessive oil consumption.,3. Worn piston rings.,Replace rings.
+Compressor,Excessive oil consumption.,4. Wrong oil viscosity.,"Drain oil, refill with oil of proper viscosity."
+Compressor,Excessive oil consumption.,5. Compressor tilted too much.,Level compressor. Vibration pads may help with this
+Compressor,Excessive oil consumption.,6. Scored cylinder.,Replace cylinder.
+Compressor,Oil in discharge air.,1. Compressor air intake restricted.,Clean or replace your air filters.
+Compressor,Oil in discharge air.,2. Worn piston rings.,Replace rings.
+Compressor,Oil in discharge air.,3. Excessive oil in compressor.,Drain down to full mark on sight gauge.
+Compressor,Oil in discharge air.,4. Wrong oil viscosity.,Check viscosity.
+Compressor,Oil in discharge air.,5. Piston rings installed up-side down.,Replace crankshaft.
+Compressor,Compressor vibrates.,1. Mounting bolts loose.,Tighten.
+Compressor,Compressor vibrates.,2. Compressor not properly mounted.,Level compressor so that all feet touch the floor before tightening down.
+Compressor,Compressor vibrates.,3. Pulley and flywheel misaligned.,Realign.
+Compressor,Compressor vibrates.,4. Belts loose.,Tighten belts.
+Compressor,Compressor vibrates.,5. Bent crankshaft.,Replace crankshaft.
+Compressor,Air blowing out of inlet.,1. Broken first stage inlet valve.,Replace valve plate assembly.
+Compressor,Insufficient pressure at point of use.,1. Leaks or restriction.,Check for leaks or restriction in hose or piping. Repair.
+Compressor,Insufficient pressure at point of use.,2. Restricted air intake.,Clean or replace air filter element.
+Compressor,Insufficient pressure at point of use.,3. Slipping belts.,Tighten belts.
+Compressor,Insufficient pressure at point of use.,4. Service hose too small.,Replace with larger hose.
+Compressor,Insufficient pressure at point of use.,5. Excessive air requirement.,Limit air usage to compressor capacity by using fewer or smaller tools.
+Compressor,Receiver does not hold pressure when compressor is unloaded.,1. Faulty check valve.,"Bleed tank! Disassemble check valve assembly, clean or replace faulty parts."
+Compressor,Excessive belt wear.,1. Pulley out of alignment.,Realign motor pulley with compressor flywheel.
+Compressor,Excessive belt wear.,2. Belts too tight.,Adjust tension.
+Compressor,Excessive belt wear.,3. Belts too loose.,Adjust tension.
+Compressor,Excessive belt wear.,4. Pulley or flywheel wobble.,"Check for worn worn crankshaft, keyway or pulley bore, resulting from running with loose pulleys. Check for bent crankshaft."
+Compressor,Excessive belt wear.,5. Nick in belt groove of pulley or flywheel.,File smooth.
+Compressor,Excessive discharge air temperature.,1. Dirty cooling surfaces.,"Clean cooling surfaces of cylinder, intercooler and discharge tube."
+Compressor,Excessive discharge air temperature.,2. Poor ventilation.,Improve ventilation or relocate compressor.
+Compressor,Excessive discharge air temperature.,3. Blown head gasket.,Replace head gasket.
+Compressor,Excessive discharge air temperature.,4. Restricted air intake.,Clean or replace air filter element.
+Compressor,Excessive discharge air temperature.,5. Worn valves.,Replace valve plate assembly.
+Compressor,Air leaking from inter stage safety relief valve when compressor is pumping.,1. Safety relief valve not functioning properly.,"Remove and install new safety relief valve. If new safety valve leaks remove cylinder head, inspect and clean reed valve assembly."
+Compressor,Air leaking from inter stage safety relief valve when compressor is pumping.,2. Leaky gasket - High pressure inlet valve.,Replace gasket.
+Compressor,Receiver pressure builds up slowly.,1. Dirty air filter.,Clean or replace filter element.
+Compressor,Receiver pressure builds up slowly.,2. Blown cylinder head gasket.,Install new gasket.
+Compressor,Receiver pressure builds up slowly.,3. Worn or broken low pressure intake or discharge valves.,Install new valve plate.
+Compressor,Receiver pressure builds up slowly.,4. Air leaks.,Tighten joints.
+Compressor,Receiver pressure builds up slowly.,5. Loose belts.,Tighten or replace belts.
+Compressor,Receiver pressure builds up slowly.,6. Speed too slow.,Check speed.
+Compressor,Receiver pressure builds up quickly on compressor.,1. Excessive water in receiver.,Drain receiver/tank.
+Compressor,Receiver pressure builds up quickly on compressor.,2. Speed too fast.,Check speed.
+Compressor,Reset mechanism cuts out repeatedly; fuses of proper size blow.,1. Motor overload.,Shut down immediately to avoid damage.
+Compressor,Reset mechanism cuts out repeatedly; fuses of proper size blow.,2. Malfunction or improperly adjusted.,Adjust or replace.
+Compressor,Reset mechanism cuts out repeatedly; fuses of proper size blow.,3. High ambient temperature.,Provide ventilation.
+Compressor,Fuses blow repeatedly.,1. Wrong fuse size.,Check to make sure that fuses are of proper ampere rating.
+Compressor,Compressor will not operate.,1. No electrical power.,"Turn on power, check fuse, breaker, or motor overload."
+Compressor,Compressor will not operate.,2. Pressure switch not making contact.,Replace or repair.
+Compressor,Compressor will not operate.,3. Defective unloader or check valve.,Replace or repair.
+Compressor,Excessive noise in operation.,"1. Loose pulley, flywheel belt, belt guard, clamps or accessories.",Tighten.
+Compressor,Excessive noise in operation.,2. Lack of oil in crankcase.,"Check for possible damage to bearings, replenish oil."
+Compressor,Excessive noise in operation.,3. Piston hitting the valve plate.,"Remove the compressor cylinder head and inspect for foreign matter on top of the piston, clean, add a new gasket, and reassemble the head."
+Compressor,Excessive noise in operation.,4. Compressor floor mounting loose.,Tighten.
+Compressor,Excessive noise in operation.,5. Defective crankcase.,Repair
+Compressor,Knock-same cycle as RPM.,1. Main bearings.,Replace bearings.
+Compressor,Knock-same cycle as RPM.,2. Connecting rod bearings.,Replace rod.
+Compressor,Knock-same cycle as RPM.,3. Loose flywheel.,Tighten.
+Compressor,Knock occurs while compressor is loading.,"2. Wrist pins, wrist pin bearings.",Replace complete piston assembly.
+Compressor,Knock occurs while compressor is loading.,3. Loose connecting rod bolt.,Tighten bolt.
+Compressor,Knock occurs while compressor is loading.,4. Loose flywheel.,Tighten setscrew.
+Compressor,Milky oil in crankcase.,1. Water entering oil reservoir due to compressor operating in high humidity environment.,Pipe air intake to less humid air source.
+Compressor,Excessive oil consumption.,1. Restricted air intake.,Clean or replace air filter.
+Compressor,Excessive oil consumption.,3. Worn piston rings.,Replace rings.
+Compressor,Excessive oil consumption.,5. Compressor tilted too much.,Level compressor.
+Compressor,Oil in discharge air.,1. Compressor air intake restricted.,Clean air filter element and check for other restrictions in the intake system.
+Compressor,Oil in discharge air.,3. Excessive oil in compressor.,Drain down to bottom of threads.
+Compressor,Oil in discharge air.,4. Wrong oil viscosity.,Check viscosity and change oil if necessary
+Compressor,Oil in discharge air.,5. Piston rings installed up-side down.,Install rings in proper position.
+Compressor,Oil in discharge air.,6. Plugged crankcase breather.,Clean or replace.
+Compressor,Compressor vibrates.,1. Mounting bolts loose.,Tighten. Consider installing vibration pads.
+Compressor,Receiver does not hold pressure when compressor shuts off,1. Faulty check valve.,"Bleed tank! Disassemble check valve assembly, clean or replace faulty parts."
+Compressor,Excessive belt wear.,1. Pulley out of alignment.,Realign motor pulley with compressor flywheel.
+Compressor,Excessive belt wear.,4. Pulley or flywheel wobble.,"Check for worn crankshaft, keyway or pulley bore, resulting from running with loose pulleys. Check for bent crankshaft - if bent then replace."
+Compressor,Excessive discharge air temperature.,4. Worn valve.,Repair or replace valves.
+Compressor,Receiver pressure builds up slowly.,1. Dirty air filter.,Clean or replace filter element.
+Compressor,Receiver pressure builds up slowly.,2. Blown cylinder head gasket.,Install new gasket.
+Compressor,Receiver pressure builds up slowly.,3. Worn or broken low pressure intake or discharge valves.,Install new flapper valves and gaskets.
+Compressor,Receiver pressure builds up slowly.,5. Loose belts.,Tighten belt or replace belt.
+Compressor,Receiver pressure builds up slowly.,6. Speed too slow.,Check pulley size and belt tension.
+Compressor,Receiver pressure builds up rapidly.,1. Excessive water in receiver.,Drain receiver/tank.
+Compressor,Reset mechanism cuts out repeatedly.,1. Motor overload.,Shut down immediately to avoid damage.
+Compressor,Reset mechanism cuts out repeatedly.,2. Malfunction or improperly adjusted.,Adjust or replace.
+Compressor,Reset mechanism cuts out repeatedly.,3. High ambient temperature.,Provide ventilation.
+Compressor,Fuses blow repeatedly.,3. Defective unloader or check valve.,Replace or repair.
+Compressor,Fuses blow repeatedly.,4. Belt to tight.,Loosen belt.
+Compressor,Compressor suddenly stops working,1. Bad unloader valve,Replace the unloader valve.
+Compressor,Compressor suddenly stops working,2. Loss of power,Plug compressor into a new power source
+Gearbox,Gear case becomes unusually hot,1. Overload,Decrease load or use a larger model
+Gearbox,Gear case becomes unusually hot,2. Insufficient or excessive lubricating oil,Adjust oil level so it aligns with mark on oil gauge
+Gearbox,Gear case becomes unusually hot,3. Contaminated oil,Flush interior and resplace oil
+Gearbox,Gear case becomes unusually hot,4. Oil viscosity is improper,Change oil with one having the proper viscosity
+Gearbox,Gear case becomes unusually hot,5. Bearing are improperly mounted,Reassemble and tighten properly (Consult dealer)
+Gearbox,Gear case becomes unusually hot,6. Shaft is connected improperly,Align properly
+Gearbox,Gear case becomes unusually hot,7. Air vent port is closed,Remove rubber plug from oil cap
+Gearbox,Gear case becomes unusually hot,8. Ambient temperature is too high,Install cooling fan or move to cooler area
+Gearbox,Unusual or excessive noise,1. Improper meshing,Adjust properly (Consult dealer)
+Gearbox,Unusual or excessive noise,2. Bearings are damaged or worn,Replace bearings (Consult dealer)
+Gearbox,Unusual or excessive noise,3. Overloaded,Decrease load or use a larger model
+Gearbox,Unusual or excessive noise,4. Insufficient oil,Add oil so level aligns with oil gauge
+Gearbox,Unusual or excessive noise,5. Oil seal is not wet with oil,Lubricate
+Gearbox,Unusual or excessive noise,6. Improper installation or connection,Tighten loose bolts and align correctly
+Gearbox,Unusual or excessive noise,7. Bearing are improperly mounted,Adjust (Consult dealer)
+Gearbox,Unusual or excessive noise,8. Input rpm is too high,Reduce
+Gearbox,Unusual or excessive noise,9. Foreign particles are mixed in oil,Remove foreign particles and replace oil after flushing interior. (Consult dealer)
+Gearbox,Vibration is excessive,1. Gear teeth are worn,Replace wheel (Consult dealer)
+Gearbox,Vibration is excessive,2. Foreign particles are mixed in oil,Remove foreign particles and replace oil after flushing interior. (Consult dealer)
+Gearbox,Vibration is excessive,3. Bearings are worn or damaged,Replace bearings (Consult dealer)
+Gearbox,Vibration is excessive,4. Mounting bolts are loose,Tighten
+Gearbox,Vibration is excessive,5. Wheel is improperly aligned,Replace wheel (Consult dealer)
+Gearbox,Input/output shafts do not rotate at all,1. Teeth seizure,Replace worm and wheel (Consult dealer)
+Gearbox,Input/output shafts do not rotate at all,2. Bearings are worn or damaged,Replace bearings (Consult dealer)
+Gearbox,Input/output shafts do not rotate at all,3. Foreign particles are mixed in oil,Remove foreign particles and replace oil after flushing interior. (Consult dealer)
+Gearbox,Input/output shafts rotates in idle condition and output shaft is not driven,1. Wheel teeth is worn,Replace wheel (Consult dealer)
+Gearbox,Input/output shafts rotates in idle condition and output shaft is not driven,2. Wheel boss or shaft key are damaged,Replace wheel or key (Consult dealer)
+Gearbox,Input/output shafts rotates in idle condition and output shaft is not driven,3. Input shaft or worm teeth are damaged,Replace shaft or worm (Consult dealer)
+Gearbox,Input/output shafts rotates in idle condition and output shaft is not driven,4. Input shaft is broken,Replace shaft (Consult dealer)
+Gearbox,Teeth are worn,1. Overload,Reduced load
+Gearbox,Teeth are worn,2. Contaminated oil,Replace oil after flushing interior
+Gearbox,Teeth are worn,3. Insufficient oil,Add oil
+Gearbox,Teeth are worn,4. Oil viscosity is too low,Replace oil with one having the proper viscosity
+Gearbox,Teeth are worn,5. Ambient temperature is too high,Install cooling fan or move to cooler area
+Gearbox,Teeth are worn,6. Foreign particles are mixed in oil,"Remove foreign particles, clean interior and replace oil"
+Gearbox,Teeth are worn,7. Excessive rpm,Reducer rpm or use a different model
+Gearbox,Teeth are worn,8. Backlash is improper,Reassemble and adjust
+Gearbox,Main body has cracks or shaft is broken,1. Overload,Reduce load or use a larger model
+Gearbox,Main body has cracks or shaft is broken,2. Impact load is greater than rated load.,Reduce impact load or use a larger model
+Gearbox,Main body has cracks or shaft is broken,3. Connection is improper,Align properly
+Gearbox,Main body has cracks or shaft is broken,4. Gear case has partial thickness or cavities,Replace gear case (Consult dealer)
+Gearbox,Oil leaks,1. Oil seal is defective,Replace oil seal
+Gearbox,Oil leaks,2. Cover mounting bolts are loose,Tighten bolts
+Gearbox,Oil leaks,3. Air does not escape,Check oil cap
+Gearbox,Oil leaks,4. Input and output shafts are marred,Replace shafts (Consult dealer)
+Gearbox,Oil leaks,5. Excessive oil,Adjust oil level so it aligns with mark on oil gauge
+Gearbox,Oil leaks,6. Gear case has cavities,Replace gear case (Consult dealer)
+Gearbox,Oil leaks,7. Gear case has fissures,Replace gear case (Consult dealer)
+Gearbox,Oil leaks,"8. Other than normal installation directions (horizontal oblique, upside-down etc)",Const dealer about installation
+centrigugal pump,Zero Flow after   Startup,Air in Pump or Suction   Pipework,Ensure Pump and   Pipework are Completely Filled with Liquid. Pump can not prime with air in   suction line.
+centrigugal pump,Zero Flow after   Startup,Suction Lift Too High,Check Inlet for   obstruction. If there is not an obstruction calculate friction losses. If   static lift is too high the liquid in the suction tank must be raised or pump   lowered
+centrigugal pump,Zero Flow after   Startup,Insufficient   Manometric Head,"Actual head with   friction losses is higher than pump design. Calculate head and friction   losses in discharge. Check all valves are open. To correct increase pipe   diameter, or increase impeller diameter, motor power or pump."
+centrigugal pump,Zero Flow after   Startup,Operation is Reversed,Check motor direction   of rotation is in the direction of arrow on pump casing
+centrigugal pump,Zero Flow after   Startup,Speed Incorrect,Check supply voltage and   frequency. Motor may also have open phase
+centrigugal pump,Zero Flow after   Startup,"Impeller, strainer or   check valve clogged","Clean impeller, valve   and strainer"
+centrigugal pump,Flow Decreases or None at All,"Air ingress through   shaft seal, suction piping, suction port. Pump lifts liquid with air.","Check suction pipework   for leaks, including all joints and fittings. Check shaft seal and if   necessary, increase pressure of sealing liquid. Check depth of suction   pipework or valve in liquid and deepen if required. Check inlet tank for vortexing."
+centrigugal pump,Flow Decreases or None at All,Air pocket in suction   pipe,Check angle of suction   line and ensure there is no possibility for an air pocket and if so ensure   air eliminator valves are fitted
+centrigugal pump,Flow Decreases or None at All,Increase of Manometric   Head,Check valves are fully   open and there are no obstructions in discharge pipe
+centrigugal pump,Flow Decreases or None at All,"Impeller, strainer or   check valve clogged","Clean impeller, valve   and strainer"
+centrigugal pump,Driver Overloaded,Pump operating at   lower manometric head,The actual head is   lower than originally specified. Reduce impeller size to diameter advised by   supplier or utilise an inverter to reduce pump speed
+centrigugal pump,Driver Overloaded,Speed too high,Decrease pump   rotational speed or trim impeller to required size
+centrigugal pump,Driver Overloaded,Mechanical Friction   inside pump,Check pump rotor for   any obstruction or deflection
+centrigugal pump,Driver Overloaded,Packing wound too   tight,Loosen nuts on packing   gland
+centrigugal pump,Driver Overloaded,Coupling Alignment,Check coupling rubber   and realign pump and coupling
+centrigugal pump,Driver Overloaded,Density or viscosity   of the liquid pumped is higher than originally advised,Increase motor size
+centrigugal pump,Driver Overloaded,Motor Defects,Check for motor   defects. May not be ventilated correctly and be in a poor location
+centrigugal pump,Bearings   Overheating,Poor Coupling   Alignment,Check coupling rubber   and realign pump and coupling
+centrigugal pump,Bearings   Overheating,Bearing Covers too   tight,"Check and loosen if   necessary, bearing cover"
+centrigugal pump,Bearings   Overheating,Pumped flow is less   than minimum safe continuous flow,"Increase flow. If   necessary, use by-pass recirculating valve or line"
+centrigugal pump,Bearings   Overheating,Too much grease,Remove excess grease
+centrigugal pump,Bearings   Overheating,Insufficient lubrication   or lubricating oil / grease dirty or contaminated,"Check the amount of   oil/grease. Clean the bearings, bearing housing and lubricate"
+centrigugal pump,Vibration,Partially clogged   impeller,Clean Impeller
+centrigugal pump,Vibration,Worn or defective   impeller,Replace impeller
+centrigugal pump,Vibration,Poor Coupling   Alignment,Check coupling rubber   and realign pump and coupling
+centrigugal pump,Vibration,Oblique Shaft,Check shaft and   replace if required
+centrigugal pump,Vibration,Unbalanced parts,Check and rebalance   parts if required
+centrigugal pump,Noise level high,Air in liquid,Suction pipe needs to   be submerged to ensure vortexes are not created on the surface of the liquid.
+centrigugal pump,Noise level high,Pump working in   cavitation area,"NPSH is too low. Check   liquid level in suction tank, check suction losses. Check valve in suction   line and ensure fully open. Increase suction head by lowering pump."
+centrigugal pump,Noise level high,Pump operating outside   of duty range,Check duty point
