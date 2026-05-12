@@ -32,6 +32,12 @@ function loadMachines() {
 function loadMachineData() {
 
     const machine = document.getElementById("machineSelect").value;
+    document.getElementById("homePage").style.display = "none";
+
+    document.getElementById("machinePage").style.display = "block";
+
+    document.getElementById("machinePageTitle").innerText =
+    machine + " Troubleshooting";
 
     updateMachinePreview(machine);
 
@@ -56,10 +62,6 @@ function loadMachineData() {
 
             </div>
         `;
-    });
-
-    results.scrollIntoView({
-        behavior: "smooth"
     });
 }
 
@@ -145,4 +147,10 @@ function updateMachinePreview(machine){
         image.src = "images/gearbox.webp";
     }
     title.innerText = machine;
+}
+function goBack(){
+
+    document.getElementById("homePage").style.display = "block";
+
+    document.getElementById("machinePage").style.display = "none";
 }

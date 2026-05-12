@@ -24,7 +24,8 @@
     </div>
 
     <!-- Hero Section -->
-    <div class="hero">
+     <div id="homePage">
+        <div class="hero">
 
         <div class="hero-left">
             <h1>
@@ -55,6 +56,7 @@
             </div>
 
         </div>
+     </div>
 <!-- Dynamic Machine Preview -->
 
 <div class="preview-section">
@@ -91,12 +93,19 @@
 
 </div>
     </div>
-    <!-- Results -->
-    <div class="container">
+    <!-- Machine Detail Page -->
 
-        <div id="results" class="results-grid"></div>
+<div id="machinePage" style="display:none;">
 
-    </div>
+    <button onclick="goBack()" class="back-btn">
+        ← Back
+    </button>
+
+    <h1 id="machinePageTitle"></h1>
+
+    <div id="results" class="results-grid"></div>
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
