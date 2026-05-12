@@ -147,7 +147,7 @@ function updateMachinePreview(machine){
 
     else if(machine === "centrigugal pump"){
 
-        image.src = "images/Centrifugal Pump.jpeg";
+        image.src = "images/Pump.jpg";
     }
 
     title.innerText = machine;
