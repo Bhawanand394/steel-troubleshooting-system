@@ -1242,181 +1242,181 @@
         "Remedy":"Const dealer about installation"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Air in Pump or Suction \u00a0 Pipework",
         "Remedy":"Ensure Pump and \u00a0 Pipework are Completely Filled with Liquid. Pump can not prime with air in \u00a0 suction line."
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Suction Lift Too High",
         "Remedy":"Check Inlet for \u00a0 obstruction. If there is not an obstruction calculate friction losses. If \u00a0 static lift is too high the liquid in the suction tank must be raised or pump \u00a0 lowered"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Insufficient \u00a0 Manometric Head",
         "Remedy":"Actual head with \u00a0 friction losses is higher than pump design. Calculate head and friction \u00a0 losses in discharge. Check all valves are open. To correct increase pipe \u00a0 diameter, or increase impeller diameter, motor power or pump."
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Operation is Reversed",
         "Remedy":"Check motor direction \u00a0 of rotation is in the direction of arrow on pump casing"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Speed Incorrect",
         "Remedy":"Check supply voltage and \u00a0 frequency. Motor may also have open phase"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Zero Flow after \u00a0 Startup",
         "Cause":"Impeller, strainer or \u00a0 check valve clogged",
         "Remedy":"Clean impeller, valve \u00a0 and strainer"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Flow Decreases or None at All",
         "Cause":"Air ingress through \u00a0 shaft seal, suction piping, suction port. Pump lifts liquid with air.",
         "Remedy":"Check suction pipework \u00a0 for leaks, including all joints and fittings. Check shaft seal and if \u00a0 necessary, increase pressure of sealing liquid. Check depth of suction \u00a0 pipework or valve in liquid and deepen if required.\u00a0Check inlet tank for vortexing."
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Flow Decreases or None at All",
         "Cause":"Air pocket in suction \u00a0 pipe",
         "Remedy":"Check angle of suction \u00a0 line and ensure there is no possibility for an air pocket and if so ensure \u00a0 air eliminator valves are fitted"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Flow Decreases or None at All",
         "Cause":"Increase of Manometric \u00a0 Head",
         "Remedy":"Check valves are fully \u00a0 open and there are no obstructions in discharge pipe"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Flow Decreases or None at All",
         "Cause":"Impeller, strainer or \u00a0 check valve clogged",
         "Remedy":"Clean impeller, valve \u00a0 and strainer"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Pump operating at \u00a0 lower manometric head",
         "Remedy":"The actual head is \u00a0 lower than originally specified. Reduce impeller size to diameter advised by \u00a0 supplier or utilise an inverter to reduce pump speed"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Speed too high",
         "Remedy":"Decrease pump \u00a0 rotational speed or trim impeller to required size"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Mechanical Friction \u00a0 inside pump",
         "Remedy":"Check pump rotor for \u00a0 any obstruction or deflection"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Packing wound too \u00a0 tight",
         "Remedy":"Loosen nuts on packing \u00a0 gland"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Coupling Alignment",
         "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Density or viscosity \u00a0 of the liquid pumped is higher than originally advised",
         "Remedy":"Increase motor size"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Driver Overloaded",
         "Cause":"Motor Defects",
         "Remedy":"Check for motor \u00a0 defects. May not be ventilated correctly and be in a poor location"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Bearings \u00a0 Overheating",
         "Cause":"Poor Coupling \u00a0 Alignment",
         "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Bearings \u00a0 Overheating",
         "Cause":"Bearing Covers too \u00a0 tight",
         "Remedy":"Check and loosen if \u00a0 necessary, bearing cover"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Bearings \u00a0 Overheating",
         "Cause":"Pumped flow is less \u00a0 than minimum safe continuous flow",
         "Remedy":"Increase flow. If \u00a0 necessary, use by-pass recirculating valve or line"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Bearings \u00a0 Overheating",
         "Cause":"Too much grease",
         "Remedy":"Remove excess grease"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Bearings \u00a0 Overheating",
         "Cause":"Insufficient lubrication \u00a0 or lubricating oil \/ grease dirty or contaminated",
         "Remedy":"Check the amount of \u00a0 oil\/grease. Clean the bearings, bearing housing and lubricate"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Vibration",
         "Cause":"Partially clogged \u00a0 impeller",
         "Remedy":"Clean Impeller"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Vibration",
         "Cause":"Worn or defective \u00a0 impeller",
         "Remedy":"Replace impeller"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Vibration",
         "Cause":"Poor Coupling \u00a0 Alignment",
         "Remedy":"Check coupling rubber \u00a0 and realign pump and coupling"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Vibration",
         "Cause":"Oblique Shaft",
         "Remedy":"Check shaft and \u00a0 replace if required"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Vibration",
         "Cause":"Unbalanced parts",
         "Remedy":"Check and rebalance \u00a0 parts if required"
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Noise level high",
         "Cause":"Air in liquid",
         "Remedy":"Suction pipe needs to \u00a0 be submerged to ensure vortexes are not created on the surface of the liquid."
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Noise level high",
         "Cause":"Pump working in \u00a0 cavitation area",
         "Remedy":"NPSH is too low. Check \u00a0 liquid level in suction tank, check suction losses. Check valve in suction \u00a0 line and ensure fully open. Increase suction head by lowering pump."
     },
     {
-        "Machine":"centrigugal pump",
+        "Machine":"centrifugal pump",
         "Problem":"Noise level high",
         "Cause":"Pump operating outside \u00a0 of duty range",
         "Remedy":"Check duty point"
