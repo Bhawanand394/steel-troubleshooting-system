@@ -145,7 +145,7 @@ function updateMachinePreview(machine){
         image.src = "images/gearbox.webp";
     }
 
-    else if(machine === "centrifugal pump"){
+    else if(machine === "centrigugal pump"){
 
         image.src = "images/Centrifugal Pump.jpeg";
     }
