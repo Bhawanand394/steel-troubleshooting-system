@@ -127,6 +127,7 @@ function smartSearch(){
     });
 }
 function updateMachinePreview(machine){
+    document.getElementById("previewSection").style.display = "flex";
 
     const image = document.getElementById("machineImage");
 
