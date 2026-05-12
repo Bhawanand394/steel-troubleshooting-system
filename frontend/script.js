@@ -121,3 +121,31 @@ function smartSearch(){
         `;
     });
 }
+function updateMachinePreview(machine){
+
+    const image = document.getElementById("machineImage");
+
+    const title = document.getElementById("machineTitle");
+
+    if(machine === "CGL"){
+
+        image.src = "images/CGL.jpg";
+    }
+
+    else if(machine === "Compressor"){
+
+        image.src = "images/compressor.jpg";
+    }
+
+    else if(machine === "Gearbox"){
+
+        image.src = "images/gearbox.webp";
+    }
+
+    else if(machine === "centrifugal pump"){
+
+        image.src = "images/Centrifugal Pump.jpeg";
+    }
+
+    title.innerText = machine;
+}

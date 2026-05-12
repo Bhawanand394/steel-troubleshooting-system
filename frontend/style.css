@@ -323,3 +323,41 @@ button:hover{
         height:180px;
     }
 }
+/* Preview Section */
+
+.preview-section{
+    width:90%;
+    max-width:1200px;
+
+    margin:40px auto 80px;
+}
+
+.preview-card{
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    backdrop-filter:blur(10px);
+
+    text-align:center;
+
+    padding-bottom:25px;
+}
+
+.preview-card img{
+    width:100%;
+    height:450px;
+
+    object-fit:cover;
+}
+.preview-card h2{
+    margin-top:20px;
+
+    color:#38bdf8;
+
+    font-size:36px;
+}
