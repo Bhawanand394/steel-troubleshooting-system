@@ -146,6 +146,11 @@ function updateMachinePreview(machine){
 
         image.src = "images/gearbox.webp";
     }
+
+    else if(machine === "centrifugal pump"){
+
+        image.src = "images/Pump.jpg";
+    }
     title.innerText = machine;
 }
 function goBack(){
