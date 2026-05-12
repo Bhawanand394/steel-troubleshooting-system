@@ -33,6 +33,8 @@ function loadMachineData() {
 
     const machine = document.getElementById("machineSelect").value;
 
+    updateMachinePreview(machine);
+
     const filteredData = allData.filter(
         item => item.Machine === machine
     );
@@ -55,6 +57,7 @@ function loadMachineData() {
             </div>
         `;
     });
+
     results.scrollIntoView({
         behavior: "smooth"
     });
