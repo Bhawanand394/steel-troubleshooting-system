@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel Plant Troubleshooting System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- AI Loading Screen -->
+
+<div id="loadingScreen">
+
+    <div class="loader-box">
+
+        <div class="loader"></div>
+
+        <h2 id="loadingText">
+            Initializing AI Diagnosis...
+        </h2>
+
+    </div>
+
+</div>
+
+    <!-- Background Glow -->
+    <div class="bg-glow"></div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+
+        <div class="logo">
+            ⚙ Steel
+        </div>
+
+        <div class="nav-right">
+            Smart Industrial Monitoring
+        </div>
+
+    </div>
+
+    <!-- Hero Section -->
+     <div id="homePage">
+        <div class="hero">
+
+        <div class="hero-left">
+            <h1>
+                <!-- AI Powered <br> -->
+                Steel Plant <br>
+                Troubleshooting
+            </h1>
+            <p>
+                Intelligent maintenance and troubleshooting platform
+                for industrial machinery and equipment.
+            </p>
+        </div>
+        <div class="hero-right">
+            <div class="glass-card">
+                <h2>Machine Diagnosis</h2>
+                <!-- <input type="text" id="searchInput" placeholder="Search machine problems..." onkeyup="smartSearch()" /> -->
+                <select id="machineSelect">
+                    <option value="">
+                        Select Machine
+                    </option>
+
+                </select>
+
+                <button onclick="loadMachineData()">
+                    Analyze Problems
+                </button>
+
+            </div>
+
+        </div>
+     </div>
+<!-- Dynamic Machine Preview id="previewSection" style="display:none;"-->
+
+<div class="preview-section">
+    <div class="preview-card">
+        <img
+            id="machineImage"
+            src="images/default.jpg"
+            alt="Machine Preview"
+        >
+        <h2 id="machineTitle">
+            Machine Preview
+        </h2>
+    </div>
+</div>
+<!-- Stats Section -->
+
+<div class="stats-section">
+    <div class="stat-card">
+        <h2>2+</h2>
+        <p>Machine Types</p>
+    </div>
+    <div class="stat-card">
+        <h2>500+</h2>
+        <p>Troubleshooting Records</p>
+    </div>
+
+    <!-- <div class="stat-card">
+
+        <h2>AI</h2>
+
+        <p>Smart Diagnosis Engine</p>
+
+    </div> -->
+
+</div>
+    </div>
+    <!-- Machine Detail Page -->
+
+<div id="machinePage" style="display:none;">
+
+    <button onclick="goBack()" class="back-btn">
+        ← Back
+    </button>
+
+    <h1 id="machinePageTitle"></h1>
+
+    <div id="results" class="results-grid"></div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
