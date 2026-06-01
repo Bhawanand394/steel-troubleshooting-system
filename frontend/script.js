@@ -271,3 +271,160 @@ function selectMachine(machine){
 /* ---------------- Start App ---------------- */
 
 loadData();
+
+/* ---------------- SteelAI Chatbot ---------------- */
+
+function sendMessage(){
+
+    const input =
+        document.getElementById("chatInput");
+
+    const message =
+        input.value.trim();
+
+    if(message === ""){
+        return;
+    }
+
+    const chatMessages =
+        document.getElementById("chatMessages");
+
+    /* User Message */
+
+    chatMessages.innerHTML += `
+
+        <div class="user-message">
+            ${message}
+        </div>
+    `;
+
+    /* AI Response */
+
+    let response =
+        getAIResponse(message.toLowerCase());
+
+    setTimeout(() => {
+
+        chatMessages.innerHTML += `
+
+            <div class="bot-message">
+                ${response}
+            </div>
+        `;
+
+        chatMessages.scrollTop =
+            chatMessages.scrollHeight;
+
+    }, 700);
+
+    input.value = "";
+
+    chatMessages.scrollTop =
+        chatMessages.scrollHeight;
+}
+
+/* ---------------- AI Logic ---------------- */
+
+function getAIResponse(message){
+
+    if(
+        message.includes("pressure")
+    ){
+
+        return `
+            ⚡ Low pressure may occur due to
+            leakage, valve blockage, or
+            compressor inefficiency.
+            Inspect pressure lines and valves.
+        `;
+    }
+
+    else if(
+        message.includes("overheat")
+    ){
+
+        return `
+            🔥 Overheating can occur due to
+            poor lubrication, overload,
+            or cooling failure.
+            Inspect lubrication system immediately.
+        `;
+    }
+
+    else if(
+        message.includes("vibration")
+    ){
+
+        return `
+            📳 Excessive vibration may indicate
+            shaft misalignment, imbalance,
+            or bearing failure.
+            Check alignment and bearings.
+        `;
+    }
+
+    else if(
+        message.includes("leak")
+    ){
+
+        return `
+            💧 Leakage may occur due to
+            damaged seals, loose fittings,
+            or pipe cracks.
+            Inspect seals and joints carefully.
+        `;
+    }
+
+    else if(
+        message.includes("noise")
+    ){
+
+        return `
+            🔊 Abnormal noise may indicate
+            loose components or bearing wear.
+            Inspect rotating components.
+        `;
+    }
+
+    else if(
+        message.includes("gearbox")
+    ){
+
+        return `
+            ⚙ Gearbox issues usually relate to
+            lubrication failure, gear wear,
+            or shaft misalignment.
+        `;
+    }
+
+    else if(
+        message.includes("pump")
+    ){
+
+        return `
+            💧 Pump issues may be caused by
+            cavitation, impeller damage,
+            or suction blockage.
+        `;
+    }
+
+    else if(
+        message.includes("compressor")
+    ){
+
+        return `
+            🌀 Compressor problems often occur due
+            to pressure imbalance, leakage,
+            or overheating.
+        `;
+    }
+
+    else{
+
+        return `
+            🤖 SteelAI is analyzing your query.
+            Please provide more industrial
+            troubleshooting details.
+        `;
+    }
+}
