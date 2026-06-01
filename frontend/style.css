@@ -634,8 +634,30 @@ button:hover{
     flex:1;
 
     margin:0;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#0f172a;
+
+    color:white;
+
+    font-size:15px;
 }
 
+.chat-input-area button{
+
+    width:90px;
+
+    padding:14px;
+
+    font-size:15px;
+
+    margin:0;
+}
 /* Mobile */
 
 @media(max-width:768px){
