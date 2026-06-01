@@ -292,12 +292,37 @@
         <div id="results" class="results-grid"></div>
 
     </div>
-    <!-- AI Chatbot -->
+   <!-- AI Chatbot -->
 
-<div class="chatbot-container">
+<!-- Floating AI Button -->
+
+<div
+    class="chat-toggle"
+    onclick="toggleChatbot()"
+>
+
+    🤖
+
+</div>
+
+<div
+    class="chatbot-container"
+    id="chatbotContainer"
+>
 
     <div class="chat-header">
-        🤖 SteelAI Assistant
+
+        <span>
+            🤖 SteelAI Assistant
+        </span>
+
+        <button
+            class="close-chat"
+            onclick="toggleChatbot()"
+        >
+            ✕
+        </button>
+
     </div>
 
     <div id="chatMessages" class="chat-messages">
@@ -323,8 +348,3 @@
     </div>
 
 </div>
-    <script src="script.js"></script>
-
-</body>
-
-</html>

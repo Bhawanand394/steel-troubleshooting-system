@@ -373,3 +373,14 @@ async function sendMessage(){
         `;
     }
 }
+/* MOBILE CHAT TOGGLE */
+
+function toggleChatbot(){
+
+    const chatbot =
+        document.getElementById(
+            "chatbotContainer"
+        );
+
+    chatbot.classList.toggle("active");
+}
