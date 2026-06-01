@@ -1,6 +1,46 @@
 let allData = [];
 
-// Load JSON data
+/* ---------------- AI Loading Messages ---------------- */
+
+const loadingMessages = [
+
+    "Initializing AI Diagnosis...",
+
+    "Scanning Machine Faults...",
+
+    "Analyzing Industrial Parameters...",
+
+    "Detecting Failure Patterns...",
+
+    "Generating Troubleshooting Report..."
+];
+
+/* ---------------- Loading Animation ---------------- */
+
+function startLoadingAnimation(){
+
+    let index = 0;
+
+    const loadingText =
+        document.getElementById("loadingText");
+
+    return setInterval(() => {
+
+        loadingText.innerText =
+            loadingMessages[index];
+
+        index++;
+
+        if(index >= loadingMessages.length){
+
+            index = 0;
+        }
+
+    }, 500);
+}
+
+/* ---------------- Load JSON Data ---------------- */
+
 async function loadData() {
 
     const response = await fetch("data.json");
@@ -10,7 +50,8 @@ async function loadData() {
     loadMachines();
 }
 
-// Load machine names
+/* ---------------- Load Machine Names ---------------- */
+
 function loadMachines() {
 
     const machines = [...new Set(allData.map(item => item.Machine))];
@@ -22,51 +63,84 @@ function loadMachines() {
         const option = document.createElement("option");
 
         option.value = machine;
+
         option.textContent = machine;
 
         select.appendChild(option);
     });
 }
 
-// Show troubleshooting data
+/* ---------------- Show Troubleshooting Data ---------------- */
+
 function loadMachineData() {
 
-    const machine = document.getElementById("machineSelect").value;
-    document.getElementById("homePage").style.display = "none";
+    document.getElementById("loadingScreen").style.display =
+        "flex";
 
-    document.getElementById("machinePage").style.display = "block";
+    const loadingInterval = startLoadingAnimation();
 
-    document.getElementById("machinePageTitle").innerText =
-    machine + " Troubleshooting";
+    const machine =
+        document.getElementById("machineSelect").value;
 
     updateMachinePreview(machine);
 
-    const filteredData = allData.filter(
-        item => item.Machine === machine
-    );
+    setTimeout(() => {
 
-    const results = document.getElementById("results");
+        clearInterval(loadingInterval);
 
-    results.innerHTML = "";
+        document.getElementById("loadingScreen").style.display =
+            "none";
 
-    filteredData.forEach(item => {
+        document.getElementById("homePage").style.display =
+            "none";
 
-        results.innerHTML += `
-            <div class="card">
+        document.getElementById("machinePage").style.display =
+            "block";
 
-                <h3>${item.Problem}</h3>
+        document.getElementById("machinePageTitle").innerText =
+            machine + " Troubleshooting";
 
-                <p><strong>Cause:</strong> ${item.Cause}</p>
+        const filteredData = allData.filter(
+            item => item.Machine === machine
+        );
 
-                <p><strong>Remedy:</strong> ${item.Remedy}</p>
+        const results =
+            document.getElementById("results");
 
-            </div>
-        `;
-    });
+        results.innerHTML = "";
+
+        filteredData.forEach(item => {
+
+            results.innerHTML += `
+
+                <div class="card">
+
+                    <h3>${item.Problem || "Problem"}</h3>
+
+                    <p>
+                        <strong>Machine:</strong>
+                        ${item.Machine || "N/A"}
+                    </p>
+
+                    <p>
+                        <strong>Cause:</strong>
+                        ${item.Cause || "N/A"}
+                    </p>
+
+                    <p>
+                        <strong>Remedy:</strong>
+                        ${item.Remedy || "N/A"}
+                    </p>
+
+                </div>
+            `;
+        });
+
+    }, 2000);
 }
 
-// Start app
-loadData();
+/* ---------------- Smart Search ---------------- */
+
 function smartSearch(){
 
     const input = document
@@ -74,7 +148,8 @@ function smartSearch(){
         .value
         .toLowerCase();
 
-    const results = document.getElementById("results");
+    const results =
+        document.getElementById("results");
 
     results.innerHTML = "";
 
@@ -96,7 +171,6 @@ function smartSearch(){
 
         (item.Machine &&
         item.Machine.toLowerCase().includes(input))
-
     );
 
     filteredData.forEach(item => {
@@ -126,12 +200,19 @@ function smartSearch(){
         `;
     });
 }
+
+/* ---------------- Machine Preview ---------------- */
+
 function updateMachinePreview(machine){
-    // document.getElementById("previewSection").style.display = "flex";
 
-    const image = document.getElementById("machineImage");
+    document.getElementById("previewSection").style.display =
+        "flex";
 
-    const title = document.getElementById("machineTitle");
+    const image =
+        document.getElementById("machineImage");
+
+    const title =
+        document.getElementById("machineTitle");
 
     if(machine === "CGL"){
 
@@ -148,15 +229,45 @@ function updateMachinePreview(machine){
         image.src = "images/gearbox.webp";
     }
 
-    else if(machine === "centrifugal pump"){
+    else if(machine.toLowerCase().includes("pump")){
 
         image.src = "images/Pump.jpg";
     }
+
     title.innerText = machine;
 }
+
+/* ---------------- Back Button ---------------- */
+
 function goBack(){
 
-    document.getElementById("homePage").style.display = "block";
+    document.getElementById("homePage").style.display =
+        "block";
 
-    document.getElementById("machinePage").style.display = "none";
+    document.getElementById("machinePage").style.display =
+        "none";
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
 }
+
+/* ---------------- Machine Category Selection ---------------- */
+
+function selectMachine(machine){
+
+    document.getElementById("machineSelect").value =
+        machine;
+
+    updateMachinePreview(machine);
+
+    document.getElementById("previewSection")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+}
+
+/* ---------------- Start App ---------------- */
+
+loadData();

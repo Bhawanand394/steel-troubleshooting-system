@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Steel Plant Troubleshooting System</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
+    <!-- AI Loading Screen -->
+
+    <div id="loadingScreen">
+
+        <div class="loader-box">
+
+            <div class="loader"></div>
+
+            <h2 id="loadingText">
+                Initializing AI Diagnosis...
+            </h2>
+
+        </div>
+
+    </div>
+
     <!-- Background Glow -->
+
     <div class="bg-glow"></div>
 
     <!-- Navbar -->
+
     <div class="navbar">
 
         <div class="logo">
@@ -24,89 +47,254 @@
 
     </div>
 
-    <!-- Hero Section -->
-     <div id="homePage">
+    <!-- Homepage -->
+
+    <div id="homePage">
+
+        <!-- Hero Section -->
+
         <div class="hero">
 
-        <div class="hero-left">
-            <h1>
-                <!-- AI Powered <br> -->
-                Steel Plant <br>
-                Troubleshooting
-            </h1>
-            <p>
-                Intelligent maintenance and troubleshooting platform
-                for industrial machinery and equipment.
-            </p>
-        </div>
-        <div class="hero-right">
-            <div class="glass-card">
-                <h2>Machine Diagnosis</h2>
-                <!-- <input type="text" id="searchInput" placeholder="Search machine problems..." onkeyup="smartSearch()" /> -->
-                <select id="machineSelect">
-                    <option value="">
-                        Select Machine
-                    </option>
+            <div class="hero-left">
 
-                </select>
+                <h1>
+                    Steel Plant <br>
+                    Troubleshooting
+                </h1>
 
-                <button onclick="loadMachineData()">
-                    Analyze Problems
-                </button>
+                <p>
+                    Intelligent maintenance and troubleshooting platform
+                    for industrial machinery and equipment.
+                </p>
+
+            </div>
+
+            <div class="hero-right">
+
+                <div class="glass-card">
+
+                    <h2>Machine Diagnosis</h2>
+
+                    <select id="machineSelect">
+
+                        <option value="">
+                            Select Machine
+                        </option>
+
+                    </select>
+
+                    <button onclick="loadMachineData()">
+                        Analyze Problems
+                    </button>
+
+                </div>
 
             </div>
 
         </div>
-     </div>
-<!-- Dynamic Machine Preview id="previewSection" style="display:none;"-->
 
-<div class="preview-section">
-    <div class="preview-card">
-        <img
-            id="machineImage"
-            src="images/default.jpg"
-            alt="Machine Preview"
+        <!-- Dynamic Machine Preview -->
+
+        <div
+            class="preview-section"
+            id="previewSection"
+            style="display:none;"
         >
-        <h2 id="machineTitle">
-            Machine Preview
-        </h2>
+
+            <div class="preview-card">
+
+                <img
+                    id="machineImage"
+                    src=""
+                    alt="Machine Preview"
+                >
+
+                <h2 id="machineTitle">
+                    Machine Preview
+                </h2>
+
+            </div>
+
+        </div>
+
+        <!-- Stats Section -->
+
+        <div class="stats-section">
+
+            <div class="stat-card">
+
+                <h2>4+</h2>
+
+                <p>Machine Types</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>500+</h2>
+
+                <p>Troubleshooting Records</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>AI</h2>
+
+                <p>Smart Diagnosis Engine</p>
+
+            </div>
+
+        </div>
+
+        <!-- Machine Categories -->
+
+        <div class="machine-categories">
+
+            <h2 class="category-title">
+                Industrial Machine Categories
+            </h2>
+
+            <div class="category-grid">
+
+                <!-- CGL -->
+
+                <div
+                    class="category-card"
+                    onclick="selectMachine('CGL')"
+                >
+
+                    <h3>⚙ CGL</h3>
+
+                    <p>
+                        Continuous Galvanizing Line diagnostics
+                    </p>
+
+                </div>
+
+                <!-- Compressor -->
+
+                <div
+                    class="category-card"
+                    onclick="selectMachine('Compressor')"
+                >
+
+                    <h3>🌀 Compressor</h3>
+
+                    <p>
+                        AI compressor troubleshooting system
+                    </p>
+
+                </div>
+
+                <!-- Gearbox -->
+
+                <div
+                    class="category-card"
+                    onclick="selectMachine('Gearbox')"
+                >
+
+                    <h3>⚡ Gearbox</h3>
+
+                    <p>
+                        Industrial gearbox fault analysis
+                    </p>
+
+                </div>
+
+                <!-- Pump -->
+
+                <div
+                    class="category-card"
+                    onclick="selectMachine('centrifugal pump')"
+                >
+
+                    <h3>💧 Pump</h3>
+
+                    <p>
+                        Smart centrifugal pump monitoring
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Featured Topics -->
+
+        <div class="topics-section">
+
+            <h2 class="topics-title">
+                🔥 Popular Troubleshooting Topics
+            </h2>
+
+            <div class="topics-grid">
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('overheat')"
+                >
+                    🔥 Overheating
+                </div>
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('leak')"
+                >
+                    💧 Leakage
+                </div>
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('vibration')"
+                >
+                    📳 Vibration
+                </div>
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('pressure')"
+                >
+                    ⚡ Pressure Drop
+                </div>
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('noise')"
+                >
+                    🔊 Noise Issues
+                </div>
+
+                <div
+                    class="topic-card"
+                    onclick="filterByTopic('lubrication')"
+                >
+                    🛢 Lubrication Failure
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-</div>
-<!-- Stats Section -->
 
-<div class="stats-section">
-    <div class="stat-card">
-        <h2>2+</h2>
-        <p>Machine Types</p>
-    </div>
-    <div class="stat-card">
-        <h2>500+</h2>
-        <p>Troubleshooting Records</p>
-    </div>
-
-    <!-- <div class="stat-card">
-
-        <h2>AI</h2>
-
-        <p>Smart Diagnosis Engine</p>
-
-    </div> -->
-
-</div>
-    </div>
     <!-- Machine Detail Page -->
 
-<div id="machinePage" style="display:none;">
+    <div id="machinePage" style="display:none;">
 
-    <button onclick="goBack()" class="back-btn">
-        ← Back
-    </button>
+        <button onclick="goBack()" class="back-btn">
+            ← Back
+        </button>
 
-    <h1 id="machinePageTitle"></h1>
+        <h1 id="machinePageTitle"></h1>
 
-    <div id="results" class="results-grid"></div>
+        <div id="results" class="results-grid"></div>
 
-</div>
+    </div>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
