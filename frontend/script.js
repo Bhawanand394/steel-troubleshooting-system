@@ -272,9 +272,9 @@ function selectMachine(machine){
 
 loadData();
 
-/* ---------------- SteelAI Chatbot ---------------- */
+/* ---------------- REAL SteelAI Chatbot ---------------- */
 
-function sendMessage(){
+async function sendMessage(){
 
     const input =
         document.getElementById("chatInput");
@@ -298,133 +298,78 @@ function sendMessage(){
         </div>
     `;
 
-    /* AI Response */
+    input.value = "";
 
-    let response =
-        getAIResponse(message.toLowerCase());
+    /* Loading Message */
 
-    setTimeout(() => {
+    chatMessages.innerHTML += `
+
+        <div class="bot-message" id="loadingMessage">
+            🤖 SteelAI is analyzing your industrial issue...
+        </div>
+    `;
+
+    chatMessages.scrollTop =
+        chatMessages.scrollHeight;
+
+    try{
+
+        const response = await fetch(
+
+            "http://127.0.0.1:5000/chat",
+
+            {
+
+                method:"POST",
+
+                headers:{
+                    "Content-Type":"application/json"
+                },
+
+                body:JSON.stringify({
+
+                    message:message
+
+                })
+
+            }
+
+        );
+
+        const data = await response.json();
+
+        /* Remove Loading */
+
+        document
+            .getElementById("loadingMessage")
+            .remove();
+
+        /* AI Response */
 
         chatMessages.innerHTML += `
 
             <div class="bot-message">
-                ${response}
+                ${data.reply}
             </div>
         `;
 
         chatMessages.scrollTop =
             chatMessages.scrollHeight;
 
-    }, 700);
-
-    input.value = "";
-
-    chatMessages.scrollTop =
-        chatMessages.scrollHeight;
-}
-
-/* ---------------- AI Logic ---------------- */
-
-function getAIResponse(message){
-
-    if(
-        message.includes("pressure")
-    ){
-
-        return `
-            ⚡ Low pressure may occur due to
-            leakage, valve blockage, or
-            compressor inefficiency.
-            Inspect pressure lines and valves.
-        `;
     }
 
-    else if(
-        message.includes("overheat")
-    ){
+    catch(error){
 
-        return `
-            🔥 Overheating can occur due to
-            poor lubrication, overload,
-            or cooling failure.
-            Inspect lubrication system immediately.
-        `;
-    }
+        document
+            .getElementById("loadingMessage")
+            .remove();
 
-    else if(
-        message.includes("vibration")
-    ){
+        chatMessages.innerHTML += `
 
-        return `
-            📳 Excessive vibration may indicate
-            shaft misalignment, imbalance,
-            or bearing failure.
-            Check alignment and bearings.
-        `;
-    }
-
-    else if(
-        message.includes("leak")
-    ){
-
-        return `
-            💧 Leakage may occur due to
-            damaged seals, loose fittings,
-            or pipe cracks.
-            Inspect seals and joints carefully.
-        `;
-    }
-
-    else if(
-        message.includes("noise")
-    ){
-
-        return `
-            🔊 Abnormal noise may indicate
-            loose components or bearing wear.
-            Inspect rotating components.
-        `;
-    }
-
-    else if(
-        message.includes("gearbox")
-    ){
-
-        return `
-            ⚙ Gearbox issues usually relate to
-            lubrication failure, gear wear,
-            or shaft misalignment.
-        `;
-    }
-
-    else if(
-        message.includes("pump")
-    ){
-
-        return `
-            💧 Pump issues may be caused by
-            cavitation, impeller damage,
-            or suction blockage.
-        `;
-    }
-
-    else if(
-        message.includes("compressor")
-    ){
-
-        return `
-            🌀 Compressor problems often occur due
-            to pressure imbalance, leakage,
-            or overheating.
-        `;
-    }
-
-    else{
-
-        return `
-            🤖 SteelAI is analyzing your query.
-            Please provide more industrial
-            troubleshooting details.
+            <div class="bot-message">
+                ❌ Unable to connect to SteelAI backend.
+                Make sure Flask server is running.
+            </div>
         `;
     }
 }
