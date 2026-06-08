@@ -3,6 +3,8 @@
 
 <head>
 
+    <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Steel Plant Troubleshooting System</title>
@@ -292,84 +294,9 @@
         <div id="results" class="results-grid"></div>
 
     </div>
-   <!-- AI Chatbot -->
 
-<!-- Floating AI Button -->
+    <script src="script.js"></script>
 
-<div
-    class="chat-toggle"
-    onclick="toggleChatbot()"
->
-    🤖
-</div>
+</body>
 
-<!-- Chatbot Container -->
-
-<div
-    class="chatbot-container"
-    id="chatbotContainer"
->
-
-    <!-- Header -->
-
-    <div
-        class="chat-header"
-        onclick="toggleChatbotBody()"
-    >
-
-        <span>
-            🤖 SteelAI Assistant
-        </span>
-
-        <button
-            class="close-chat"
-            onclick="event.stopPropagation(); toggleChatbot();"
-        >
-            ✕
-        </button>
-
-    </div>
-
-    <!-- Chatbot Body -->
-
-    <div
-        id="chatbotBody"
-        class="chatbot-body"
-    >
-
-        <!-- Messages -->
-
-        <div
-            id="chatMessages"
-            class="chat-messages"
-        >
-
-            <div class="bot-message">
-
-                Hello 👋 Ask me industrial troubleshooting questions.
-
-            </div>
-
-        </div>
-
-        <!-- Input Area -->
-
-        <div class="chat-input-area">
-
-            <input
-                type="text"
-                id="chatInput"
-                placeholder="Ask SteelAI..."
-            >
-
-            <button onclick="sendMessage()">
-
-                Send
-
-            </button>
-
-        </div>
-
-    </div>
-
-</div>
+</html>

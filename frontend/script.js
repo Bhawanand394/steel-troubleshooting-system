@@ -268,168 +268,82 @@ function selectMachine(machine){
         });
 }
 
+/* ---------------- Filter By Topic ---------------- */
+
+function filterByTopic(topic){
+
+    document.getElementById("loadingScreen").style.display =
+        "flex";
+
+    const loadingInterval = startLoadingAnimation();
+
+    setTimeout(() => {
+
+        clearInterval(loadingInterval);
+
+        document.getElementById("loadingScreen").style.display =
+            "none";
+
+        document.getElementById("homePage").style.display =
+            "none";
+
+        document.getElementById("machinePage").style.display =
+            "block";
+
+        document.getElementById("machinePageTitle").innerText =
+            topic + " Related Problems";
+
+        const results =
+            document.getElementById("results");
+
+        results.innerHTML = "";
+
+        const filteredData = allData.filter(item =>
+
+            (item.Problem &&
+            item.Problem.toLowerCase().includes(topic))
+
+            ||
+
+            (item.Cause &&
+            item.Cause.toLowerCase().includes(topic))
+
+            ||
+
+            (item.Remedy &&
+            item.Remedy.toLowerCase().includes(topic))
+        );
+
+        filteredData.forEach(item => {
+
+            results.innerHTML += `
+
+                <div class="card">
+
+                    <h3>${item.Problem || "Problem"}</h3>
+
+                    <p>
+                        <strong>Machine:</strong>
+                        ${item.Machine || "N/A"}
+                    </p>
+
+                    <p>
+                        <strong>Cause:</strong>
+                        ${item.Cause || "N/A"}
+                    </p>
+
+                    <p>
+                        <strong>Remedy:</strong>
+                        ${item.Remedy || "N/A"}
+                    </p>
+
+                </div>
+            `;
+        });
+
+    }, 1500);
+}
+
 /* ---------------- Start App ---------------- */
 
 loadData();
-
-/* ---------------- REAL SteelAI Chatbot ---------------- */
-
-async function sendMessage(){
-
-    const input =
-        document.getElementById("chatInput");
-
-    const message =
-        input.value.trim();
-
-    if(message === ""){
-        return;
-    }
-
-    const chatMessages =
-        document.getElementById("chatMessages");
-
-    /* User Message */
-
-    chatMessages.innerHTML += `
-
-        <div class="user-message">
-            ${message}
-        </div>
-    `;
-
-    input.value = "";
-
-    /* Loading Message */
-
-    chatMessages.innerHTML += `
-
-        <div class="bot-message" id="loadingMessage">
-            🤖 SteelAI is analyzing your industrial issue...
-        </div>
-    `;
-
-    chatMessages.scrollTop =
-        chatMessages.scrollHeight;
-
-    try{
-
-        const response = await fetch(
-
-            "http://127.0.0.1:5000/chat",
-
-            {
-
-                method:"POST",
-
-                headers:{
-                    "Content-Type":"application/json"
-                },
-
-                body:JSON.stringify({
-
-                    message:message
-
-                })
-
-            }
-
-        );
-
-        const data = await response.json();
-
-        /* Remove Loading */
-
-        document
-            .getElementById("loadingMessage")
-            .remove();
-
-        /* AI Response */
-
-        chatMessages.innerHTML += `
-
-            <div class="bot-message">
-                ${data.reply}
-            </div>
-        `;
-
-        chatMessages.scrollTop =
-            chatMessages.scrollHeight;
-
-    }
-
-    catch(error){
-
-        document
-            .getElementById("loadingMessage")
-            .remove();
-
-        chatMessages.innerHTML += `
-
-            <div class="bot-message">
-                ❌ Unable to connect to SteelAI backend.
-                Make sure Flask server is running.
-            </div>
-        `;
-    }
-}
-/* MOBILE CHAT TOGGLE */
-
-function toggleChatbot(){
-
-    const chatbot =
-        document.getElementById(
-            "chatbotContainer"
-        );
-
-    chatbot.classList.toggle("active");
-}
-// CHATBOT OPEN/CLOSE
-
-let chatbotVisible = true;
-
-function toggleChatbot(){
-
-    const chatbot =
-        document.getElementById("chatbotContainer");
-
-    if(chatbot.style.display === "none"){
-
-        chatbot.style.display = "flex";
-
-        chatbotVisible = true;
-    }
-
-    else{
-
-        chatbot.style.display = "none";
-
-        chatbotVisible = false;
-    }
-}
-
-// CHATBOT DROPDOWN
-
-let chatbotExpanded = true;
-
-function toggleChatbotBody(){
-
-    const body =
-        document.getElementById("chatbotBody");
-
-    if(chatbotExpanded){
-
-        body.style.display = "none";
-
-        chatbotExpanded = false;
-    }
-
-    else{
-
-        body.style.display = "flex";
-
-        body.style.flexDirection = "column";
-
-        chatbotExpanded = true;
-    }
-}
