@@ -300,17 +300,22 @@
     class="chat-toggle"
     onclick="toggleChatbot()"
 >
-
     🤖
-
 </div>
+
+<!-- Chatbot Container -->
 
 <div
     class="chatbot-container"
     id="chatbotContainer"
 >
 
-    <div class="chat-header">
+    <!-- Header -->
+
+    <div
+        class="chat-header"
+        onclick="toggleChatbotBody()"
+    >
 
         <span>
             🤖 SteelAI Assistant
@@ -318,32 +323,52 @@
 
         <button
             class="close-chat"
-            onclick="toggleChatbot()"
+            onclick="event.stopPropagation(); toggleChatbot();"
         >
             ✕
         </button>
 
     </div>
 
-    <div id="chatMessages" class="chat-messages">
+    <!-- Chatbot Body -->
 
-        <div class="bot-message">
-            Hello 👋 Ask me industrial troubleshooting questions.
-        </div>
+    <div
+        id="chatbotBody"
+        class="chatbot-body"
+    >
 
-    </div>
+        <!-- Messages -->
 
-    <div class="chat-input-area">
-
-        <input
-            type="text"
-            id="chatInput"
-            placeholder="Ask SteelAI..."
+        <div
+            id="chatMessages"
+            class="chat-messages"
         >
 
-        <button onclick="sendMessage()">
-            Send
-        </button>
+            <div class="bot-message">
+
+                Hello 👋 Ask me industrial troubleshooting questions.
+
+            </div>
+
+        </div>
+
+        <!-- Input Area -->
+
+        <div class="chat-input-area">
+
+            <input
+                type="text"
+                id="chatInput"
+                placeholder="Ask SteelAI..."
+            >
+
+            <button onclick="sendMessage()">
+
+                Send
+
+            </button>
+
+        </div>
 
     </div>
 

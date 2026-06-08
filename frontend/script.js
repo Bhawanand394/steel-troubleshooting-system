@@ -384,3 +384,52 @@ function toggleChatbot(){
 
     chatbot.classList.toggle("active");
 }
+// CHATBOT OPEN/CLOSE
+
+let chatbotVisible = true;
+
+function toggleChatbot(){
+
+    const chatbot =
+        document.getElementById("chatbotContainer");
+
+    if(chatbot.style.display === "none"){
+
+        chatbot.style.display = "flex";
+
+        chatbotVisible = true;
+    }
+
+    else{
+
+        chatbot.style.display = "none";
+
+        chatbotVisible = false;
+    }
+}
+
+// CHATBOT DROPDOWN
+
+let chatbotExpanded = true;
+
+function toggleChatbotBody(){
+
+    const body =
+        document.getElementById("chatbotBody");
+
+    if(chatbotExpanded){
+
+        body.style.display = "none";
+
+        chatbotExpanded = false;
+    }
+
+    else{
+
+        body.style.display = "flex";
+
+        body.style.flexDirection = "column";
+
+        chatbotExpanded = true;
+    }
+}
